@@ -1,21 +1,20 @@
-let coins = require('index.js');
+const fs = require('fs');
 
-coins.getCoins();
+let secret = require('./secret');
+for (let i in secret) {
+    delete secret[i]['secret'];
+}
+fs.writeFileSync('./src/coins.js', "let coins = "+ JSON.stringify(secret, null, 2) +";\n" +
+    "\n" +
+    "module.exports = coins;");
 
-module.exports = {
-  coins: coins,
-  getCoins: getCoins,
-};
+let coins = require('./index');
+let data = coins.getCoins();
 
-/*
-XTZ: delegating: {
-      name: 'Baking',
-    },
-Eth like:
-    gas: {
-      ticker: 'Gwei',
-      title: 'Gas',
-    },
-  Other:
-    KMDVOTE2019
- */
+fs.writeFile('./src/coins.json', JSON.stringify(data), function(err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
