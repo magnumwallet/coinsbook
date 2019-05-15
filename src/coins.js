@@ -9,45 +9,93 @@ let coins = {
       {
         "url": "https://mainnet.tezrpc.me"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://tzscan.io/%address%",
+        "tx": "https://tzscan.io/%hash%"
+      }
     ]
   },
   "TRX": {
     "title": "TRON",
     "decimals": 6,
-    "slip44": 195
+    "slip44": 195,
+    "explorer": [
+      {
+        "address": "https://tronscan.org/#/address/%address%",
+        "tx": "https://tronscan.org/#/transaction/%hash%"
+      }
+    ]
   },
   "BNB": {
     "title": "Binance Chain",
     "type": "tendermint",
     "decimals": 8,
-    "slip44": 714
+    "slip44": 714,
+    "explorer": [
+      {
+        "address": "https://explorer.binance.org/address/%address%",
+        "tx": "https://explorer.binance.org/tx/%hash%"
+      }
+    ]
   },
   "BNB_TEST": {
     "title": "Binance Chain (Testnet)",
-    "parent": "BNB"
+    "parent": "BNB",
+    "explorer": [
+      {
+        "address": "https://testnet-explorer.binance.org/address/%address%",
+        "tx": "https://testnet-explorer.binance.org/tx/%hash%"
+      }
+    ]
   },
   "XEM": {
     "title": "NEM",
     "type": "nem",
     "decimals": 6,
-    "slip44": 43
+    "slip44": 43,
+    "explorer": [
+      {
+        "address": "http://explorer.nemchina.com/#/s_account?account=%address%",
+        "tx": "http://explorer.nemchina.com/#/s_tx?hash=%hash%"
+      }
+    ]
   },
   "XLM": {
     "title": "Stellar",
     "type": "stellar",
     "decimals": 7,
-    "slip44": 148
+    "slip44": 148,
+    "explorer": [
+      {
+        "address": "https://steexp.com/account/%address%",
+        "tx": "https://steexp.com/tx/%hash%"
+      }
+    ]
   },
   "KIN": {
     "title": "Kin",
     "type": "stellar",
     "decimals": 5,
-    "slip44": 2017
+    "slip44": 2017,
+    "explorer": [
+      {
+        "address": "https://www.kin.org/blockchainAccount/?&dataType=public&header=accountID&id=%address%",
+        "tx": "https://www.kin.org/blockchainInfoPage/?&dataType=public&header=Transaction&id=%hash%"
+      }
+    ]
   },
   "ETH": {
     "title": "Ethereum",
     "decimals": 18,
-    "slip44": 60
+    "slip44": 60,
+    "explorer": [
+      {
+        "address": "https://etherscan.io/address/%address%",
+        "tx": "https://etherscan.io/tx/%hash%"
+      }
+    ]
   },
   "ETC": {
     "title": "Ethereum Classic",
@@ -65,16 +113,34 @@ let coins = {
       {
         "url": "https://ethereumclassic.network"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://gastracker.io/addr/%address%",
+        "tx": "https://gastracker.io/tx/%hash%"
+      }
     ]
   },
   "IOST": {
     "parent": "ETH",
     "decimals": 8,
-    "slip44": 291
+    "slip44": 291,
+    "explorer": [
+      {
+        "address": "https://explorer.iost.io/account/%address%",
+        "tx": "https://explorer.iost.io/tx/%hash%"
+      }
+    ]
   },
   "IOST_TEST": {
     "title": "IOST (Testnet)",
-    "parent": "IOST"
+    "parent": "IOST",
+    "explorer": [
+      {
+        "address": "http://54.249.186.224/account/%address%",
+        "tx": "http://54.249.186.224/tx/%hash%"
+      }
+    ]
   },
   "ETZ": {
     "title": "EtherZero",
@@ -91,12 +157,24 @@ let coins = {
       {
         "url": "https://etzrpc.org"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://etzscan.com/addr/%address%",
+        "tx": "https://etzscan.com/tx/%hash%"
+      }
     ]
   },
   "AION": {
     "title": "Aion",
     "parent": "ETH",
-    "slip44": 425
+    "slip44": 425,
+    "explorer": [
+      {
+        "address": "https://mainnet.aion.network/#/account/%address%",
+        "tx": "https://mainnet.aion.network/#/transaction/%hash%"
+      }
+    ]
   },
   "ETI": {
     "title": "EtherInc",
@@ -113,6 +191,12 @@ let coins = {
     "api": [
       {
         "url": "https://api.einc.io/jsonrpc/mainnet/"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.einc.io/addr/%address%",
+        "tx": "https://explorer.einc.io/tx/%hash%"
       }
     ]
   },
@@ -132,6 +216,12 @@ let coins = {
       {
         "url": "https://clo-geth.0xinfra.com/"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.callisto.network/account/%address%",
+        "tx": "https://explorer.callisto.network/tx/%hash%"
+      }
     ]
   },
   "UBQ": {
@@ -147,6 +237,12 @@ let coins = {
         "url": "https://pyrus2.ubiqscan.io",
         "api": "https://ubiqscan.io"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://ubiqscan.io/address/%address%",
+        "tx": "https://ubiqscan.io/tx/%hash%"
+      }
     ]
   },
   "EXP": {
@@ -161,6 +257,12 @@ let coins = {
         "type": "web3",
         "url": "https://node.expanse.tech",
         "api": "https://explorer.expanse.tech"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.expanse.tech/account/%address%",
+        "tx": "https://explorer.expanse.tech/tx/%hash%"
       }
     ]
   },
@@ -256,6 +358,12 @@ let coins = {
     ],
     "electrum": [
       "wallet.bitcoininterest.io:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoininterest.io/address/%address%",
+        "tx": "https://explorer.bitcoininterest.io/tx/%hash%"
+      }
     ]
   },
   "RDD": {
@@ -272,6 +380,12 @@ let coins = {
         "type": "insight",
         "url": "https://live.reddcoin.com/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://live.reddcoin.com/address/%address%",
+        "tx": "https://live.reddcoin.com/tx/%hash%"
+      }
     ]
   },
   "ZEN": {
@@ -286,6 +400,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://explorer.zensystem.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zensystem.io/address/%address%",
+        "tx": "https://explorer.zensystem.io/tx/%hash%"
       }
     ]
   },
@@ -302,6 +422,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://insight.leocoin.org/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.leocoin.org/address/%address%",
+        "tx": "https://insight.leocoin.org/tx/%hash%"
       }
     ]
   },
@@ -334,6 +460,12 @@ let coins = {
       "dedi.jochen-hoenicke.de:s51002",
       "electrum.imaginary.cash:s50002",
       "bab.electrumx.cash:s60002"
+    ],
+    "explorer": [
+      {
+        "address": "https://www.blockdozer.com/address/%address%",
+        "tx": "https://www.blockdozer.com/tx/%hash%"
+      }
     ]
   },
   "BSV": {
@@ -363,6 +495,12 @@ let coins = {
       "electroncash.cascharia.com:s50002",
       "sv.electrumx.cash:s50002",
       "satoshi.vision.cash:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://blockchair.com/bitcoin-sv/address/%address%",
+        "tx": "https://blockchair.com/bitcoin-sv/transaction/%hash%"
+      }
     ]
   },
   "BTG": {
@@ -393,6 +531,12 @@ let coins = {
       "electrumx-us.bitcoingold.org:s50002",
       "electrumx-eu.btcgpu.org:s50002",
       "electrumx-us.btcgpu.org:s51002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoingold.org/insight/address/%address%",
+        "tx": "https://explorer.bitcoingold.org/insight/tx/%hash%"
+      }
     ]
   },
   "ANON": {
@@ -423,6 +567,12 @@ let coins = {
         "type": "insight",
         "url": "https://explorer.anon.zeltrez.io/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://anon.mgnm.rocks/address/%address%",
+        "tx": "https://anon.mgnm.rocks/tx/%hash%"
+      }
     ]
   },
   "PPC": {
@@ -445,6 +595,12 @@ let coins = {
     "electrum": [
       "explorer.peercoin.net:s50002",
       "electrum.peercoinexplorer.net:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.peercoin.net/address/%address%",
+        "tx": "https://explorer.peercoin.net/tx/%hash%"
+      }
     ]
   },
   "ZEC": {
@@ -465,6 +621,12 @@ let coins = {
     "electrum": [
       "electrum.novit.ro:t50001",
       "35.224.186.7:t50001"
+    ],
+    "explorer": [
+      {
+        "address": "https://zcashnetwork.info/address/%address%",
+        "tx": "https://zcashnetwork.info/tx/%hash%"
+      }
     ]
   },
   "ZCL": {
@@ -475,6 +637,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://explorer.zcl.zeltrez.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zcl.zeltrez.io/address/%address%",
+        "tx": "https://explorer.zcl.zeltrez.io/tx/%hash%"
       }
     ],
     "electrum": [
@@ -490,6 +658,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://explorer.zel.cash/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zel.cash/address/%address%",
+        "tx": "https://explorer.zel.cash/tx/%hash%"
       }
     ]
   },
@@ -520,11 +694,23 @@ let coins = {
       "electrum1.cipig.net:t10001",
       "electrum2.cipig.net:t10001",
       "electrum3.cipig.net:t10001"
+    ],
+    "explorer": [
+      {
+        "address": "https://kmd.mgnm.rocks/address/%address%",
+        "tx": "https://kmd.mgnm.rocks/tx/%hash%"
+      }
     ]
   },
   "ZILLA": {
     "title": "ChainZilla",
-    "parent": "KMD"
+    "parent": "KMD",
+    "explorer": [
+      {
+        "address": "https://zilla.kmdexplorer.io/address/%address%",
+        "tx": "https://zilla.kmdexplorer.io/tx/%hash%"
+      }
+    ]
   },
   "DGB": {
     "title": "DigiByte",
@@ -539,6 +725,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://digiexplorer.info/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://digiexplorer.info/address/%address%",
+        "tx": "https://digiexplorer.info/tx/%hash%"
       }
     ]
   },
@@ -569,6 +761,12 @@ let coins = {
       "electrum-ltc.petrkr.net:s60002",
       "electrum-ltc.bysh.me:s50002",
       "electrum.ltc.xurious.com:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://ltc.mgnm.rocks/address/%address%",
+        "tx": "https://ltc.mgnm.rocks/tx/%hash%"
+      }
     ]
   },
   "LCC": {
@@ -592,13 +790,14 @@ let coins = {
       "wif": 176,
       "forkId": 64
     },
-    "api": [
-      {
-        "type": "cryptoid"
-      }
-    ],
     "electrum": [
       "hetzner01.fischl-online.de:s50010"
+    ],
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/lcc/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/lcc/tx.dws?%hash%.htm"
+      }
     ]
   },
   "DASH": {
@@ -623,6 +822,12 @@ let coins = {
       "dashcrypto.space:s50002",
       "drk.p2pay.com:s50002",
       "electrum.dash.siampm.com:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.dash.org/insight/address/%address%",
+        "tx": "https://insight.dash.org/insight/tx/%hash%"
+      }
     ]
   },
   "BTCP": {
@@ -654,6 +859,12 @@ let coins = {
         "type": "insight",
         "url": "https://explorer.btcprivate.org/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.btcprivate.org/address/%address%",
+        "tx": "https://explorer.btcprivate.org/tx/%hash%"
+      }
     ]
   },
   "BCX": {
@@ -680,6 +891,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://bcx.info/insight-api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://bcx.info/address/%address%",
+        "tx": "https://bcx.info/tx/%hash%"
       }
     ]
   },
@@ -712,6 +929,12 @@ let coins = {
       "ele2.bitcore.cc:s50002",
       "ele3.bitcore.cc:s50002",
       "ele4.bitcore.cc:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.bitcore.cc/address/%address%",
+        "tx": "https://insight.bitcore.cc/tx/%hash%"
+      }
     ]
   },
   "BSD": {
@@ -723,9 +946,10 @@ let coins = {
       "scriptHash": 5,
       "wif": 204
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://chainz.cryptoid.info/bsd/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bsd/tx.dws?%hash%.htm"
       }
     ]
   },
@@ -738,9 +962,10 @@ let coins = {
       "scriptHash": 5,
       "wif": 153
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://chainz.cryptoid.info/btdx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/btdx/tx.dws?%hash%.htm"
       }
     ]
   },
@@ -753,9 +978,10 @@ let coins = {
       "scriptHash": 34,
       "wif": 178
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://chainz.cryptoid.info/mec/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/mec/tx.dws?%hash%.htm"
       }
     ]
   },
@@ -789,6 +1015,12 @@ let coins = {
     "electrum": [
       "52.78.182.106:t7403",
       "13.57.248.201:t7403"
+    ],
+    "explorer": [
+      {
+        "address": "https://microbitcoinorg.github.io/explorer/#/address/%address%",
+        "tx": "https://microbitcoinorg.github.io/explorer/#/tx/%hash%"
+      }
     ]
   },
   "BZX": {
@@ -801,9 +1033,10 @@ let coins = {
       "wif": 210,
       "cointype": 284
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://chainz.cryptoid.info/bzx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bzx/tx.dws?%hash%.htm"
       }
     ]
   },
@@ -816,9 +1049,10 @@ let coins = {
       "scriptHash": 10,
       "wif": 210
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://chainz.cryptoid.info/gxx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/gxx/tx.dws?%hash%.htm"
       }
     ]
   },
@@ -852,6 +1086,12 @@ let coins = {
         "type": "iquidus",
         "url": "https://explorer.bitcoinair.net"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoinair.net/address/%address%",
+        "tx": "https://explorer.bitcoinair.net/tx/%hash%"
+      }
     ]
   },
   "GRS": {
@@ -882,6 +1122,12 @@ let coins = {
       "electrum20.groestlcoin.org:s50002",
       "electrum30.groestlcoin.org:s50002",
       "electrum40.groestlcoin.org:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/grs/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/grs/tx.dws?%hash%.htm"
+      }
     ]
   },
   "VIA": {
@@ -898,6 +1144,12 @@ let coins = {
         "type": "insight",
         "url": "https://explorer.viacoin.org/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.viacoin.org/address/%address%",
+        "tx": "https://explorer.viacoin.org/tx/%hash%"
+      }
     ]
   },
   "NIX": {
@@ -913,6 +1165,12 @@ let coins = {
         "type": "insight",
         "url": "https://blockchain.nixplatform.io/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://blockchain.nixplatform.io/address/%address%",
+        "tx": "https://blockchain.nixplatform.io/tx/%hash%"
+      }
     ]
   },
   "PIVX": {
@@ -923,9 +1181,10 @@ let coins = {
       "scriptHash": 13,
       "wif": 212
     },
-    "api": [
+    "explorer": [
       {
-        "type": "cryptoid"
+        "address": "https://explorer.pivx.link/address/%address%",
+        "tx": "https://explorer.pivx.link/tx/%hash%"
       }
     ]
   },
@@ -950,6 +1209,12 @@ let coins = {
         "type": "insight",
         "url": "https://livenet.flocha.in/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "https://livenet.flocha.in/address/%address%",
+        "tx": "https://livenet.flocha.in/tx/%hash%"
+      }
     ]
   },
   "XZC": {
@@ -965,6 +1230,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://explorer.zcoin.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zcoin.io/address/%address%",
+        "tx": "https://explorer.zcoin.io/tx/%hash%"
       }
     ]
   },
@@ -982,6 +1253,12 @@ let coins = {
         "type": "insight",
         "url": "http://insight-myr.cryptap.us/api"
       }
+    ],
+    "explorer": [
+      {
+        "address": "http://insight-myr.cryptap.us/address/%address%",
+        "tx": "http://insight-myr.cryptap.us/tx/%hash%"
+      }
     ]
   },
   "FTC": {
@@ -997,6 +1274,12 @@ let coins = {
       {
         "type": "insight",
         "url": "https://explorer.feathercoin.com/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.feathercoin.com/address/%address%",
+        "tx": "https://explorer.feathercoin.com/tx/%hash%"
       }
     ]
   },
@@ -1017,6 +1300,12 @@ let coins = {
     ],
     "electrum": [
       "54.38.53.207:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://eca.mgnm.rocks/address/%address%",
+        "tx": "https://eca.mgnm.rocks/tx/%hash%"
+      }
     ]
   },
   "DOGE": {
@@ -1033,7 +1322,13 @@ let coins = {
       "pubKeyHash": 30,
       "scriptHash": 22,
       "wif": 158
-    }
+    },
+    "explorer": [
+      {
+        "address": "https://dogechain.info/address/%address%",
+        "tx": "https://dogechain.info/tx/%hash%"
+      }
+    ]
   },
   "MONA": {
     "title": "Monacoin",
@@ -1055,6 +1350,12 @@ let coins = {
       "electrumx2.tamami-foundation.org:s50002",
       "electrumx1.monacoin.nl:s50002",
       "electrum-mona.bitbank.cc:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://mona.chainsight.info/address/%address%",
+        "tx": "https://mona.chainsight.info/tx/%hash%"
+      }
     ]
   },
   "XVG": {
@@ -1100,6 +1401,12 @@ let coins = {
       "91.250.119.239:s50002",
       "94.130.90.213:s50002",
       "94.130.90.213:t50001"
+    ],
+    "explorer": [
+      {
+        "address": "https://verge-blockchain.info/address/%address%",
+        "tx": "https://verge-blockchain.info/tx/%hash%"
+      }
     ]
   },
   "BTH": {
@@ -1131,6 +1438,12 @@ let coins = {
       "vtc.horriblecoders.com:s55002",
       "vtc.lukechilds.co:s55002",
       "vtc-cce-1.coinomi.net:t5028"
+    ],
+    "explorer": [
+      {
+        "address": "https://vtc.tokenview.com/en/address/%address%",
+        "tx": "https://vtc.tokenview.com/en/tx/%hash%"
+      }
     ]
   },
   "NLG": {
@@ -1161,6 +1474,12 @@ let coins = {
       "s7.qtum.info:s50002",
       "s8.qtum.info:s50002",
       "s9.qtum.info:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://qtum.info/address/%address%",
+        "tx": "https://qtum.info/tx/%hash%"
+      }
     ]
   },
   "NMC": {
@@ -1179,6 +1498,12 @@ let coins = {
       "luggscoqbymhvnkp.onion:t82",
       "electrum-nmc.le-space.de:s50002",
       "nmc.bitcoins.sk:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://nmc1.trezor.io/address/%address%",
+        "tx": "https://nmc1.trezor.io/tx/%hash%"
+      }
     ]
   },
   "BCD": {
@@ -1198,7 +1523,293 @@ let coins = {
     },
     "electrum": [
       "seed1.electrum.btcd.io:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "http://explorer.btcd.io/#/address?loading=true&address=%address%",
+        "tx": "http://explorer.btcd.io/#/TX?loading=true&TX=%hash%"
+      }
     ]
+  },
+  "ADA": {
+    "title": "Cardano",
+    "type": "cardano",
+    "decimals": 6,
+    "slip44": 1815,
+    "explorer": [
+      {
+        "address": "https://cardanoexplorer.com/address/%address%",
+        "tx": "https://cardanoexplorer.com/tx/%hash%"
+      }
+    ]
+  },
+  "XRP": {
+    "title": "Ripple",
+    "type": "ripple",
+    "decimals": 6,
+    "slip44": 144,
+    "explorer": [
+      {
+        "address": "https://bithomp.com/explorer/%address%",
+        "tx": "https://bithomp.com/explorer/%hash%"
+      }
+    ]
+  },
+  "NEO": {
+    "title": "NEO",
+    "type": "neo",
+    "decimals": 6,
+    "slip44": 888
+  },
+  "ONT": {
+    "decimals": 6,
+    "type": "ontology",
+    "slip44": 1024
+  },
+  "XMR": {
+    "title": "Monero",
+    "type": "monero",
+    "decimals": 6,
+    "slip44": 128
+  },
+  "WAVES": {
+    "title": "Waves",
+    "type": "waves",
+    "decimals": 8,
+    "slip44": 5741564,
+    "explorer": [
+      {
+        "address": "https://wavesexplorer.com/address/%address%",
+        "tx": "https://wavesexplorer.com/tx/%hash%"
+      }
+    ]
+  },
+  "LSK": {
+    "title": "Lisk",
+    "type": "lisk",
+    "decimals": 8,
+    "slip44": 134,
+    "explorer": [
+      {
+        "address": "https://explorer.lisk.io/address/%address%",
+        "tx": "https://explorer.lisk.io/tx/%hash%"
+      }
+    ]
+  },
+  "DIVVY": {
+    "title": "Dispatch Labs",
+    "decimals": 0,
+    "explorer": [
+      {
+        "address": "http://35.233.197.138:1975/v1/accounts/%address%",
+        "tx": "http://35.233.197.138:1975/v1/transactions/%hash%"
+      }
+    ]
+  },
+  "MNT": {
+    "title": "Minter",
+    "decimals": 18,
+    "explorer": [
+      {
+        "address": "https://explorer.minter.network/address/%address%",
+        "tx": "https://explorer.minter.network/transactions/%hash%"
+      }
+    ]
+  },
+  "MNT_TEST": {
+    "title": "Minter (Testnet)",
+    "parent": "MNT",
+    "explorer": [
+      {
+        "address": "https://testnet.explorer.minter.network/address/%address%",
+        "tx": "https://testnet.explorer.minter.network/tx/%hash%"
+      }
+    ]
+  },
+  "ATOM": {
+    "title": "Cosmos",
+    "decimals": 8
+  },
+  "UBTC": {
+    "title": "UnitedBitcoin",
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 498777,
+        "timestamp": 1513016352,
+        "ratio": "1:1"
+      }
+    ]
+  },
+  "LBTC": {
+    "title": "Lightning Bitcoin",
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 499999,
+        "timestamp": 1513622087,
+        "ratio": "1:1"
+      }
+    ]
+  },
+  "BCA": {
+    "title": "Bitcoin ATOM",
+    "parent": "BTC"
+  },
+  "BCZ": {
+    "title": "BitcoinCash Zero",
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BZX",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:60"
+      },
+      {
+        "coin": "BCH",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:1"
+      },
+      {
+        "coin": "BSV",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:1"
+      }
+    ],
+    "chainparams": {
+      "pubKeyHash": 0,
+      "scriptHash": 0,
+      "wif": 210
+    },
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/bcz/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bcz/tx.dws?%hash%.htm"
+      }
+    ]
+  },
+  "BIFI": {
+    "title": "Bitcoin FILE",
+    "parent": "BTC",
+    "slip44": 201,
+    "chainparams": {
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://explorer.bitcoinfile.org/insight-api"
+    },
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoinfile.org/address/%address%",
+        "tx": "https://explorer.bitcoinfile.org/tx/%hash%"
+      }
+    ]
+  },
+  "XBI": {
+    "title": "Bitcoin Incognito",
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "http://explorer.bitcoinincognito.org/address/%address%",
+        "tx": "http://explorer.bitcoinincognito.org/tx/%hash%"
+      }
+    ]
+  },
+  "DCR": {
+    "title": "Decred",
+    "parent": "BTC",
+    "slip44": 42,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 50177256,
+          "private": 50178342
+        }
+      },
+      "pubKeyHash": 1855,
+      "scriptHash": 1818,
+      "wif": 8926
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://mainnet.decred.org/api"
+    },
+    "explorer": [
+      {
+        "address": "https://mainnet.decred.org/address/%address%",
+        "tx": "https://mainnet.decred.org/tx/%hash%"
+      }
+    ]
+  },
+  "RVN": {
+    "title": "Ravencoin",
+    "parent": "BTC",
+    "slip44": 175,
+    "chainparams": {
+      "pubKeyHash": 60,
+      "scriptHash": 122,
+      "wif": 128
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://ravencoin.network/api"
+    }
+  },
+  "PART": {
+    "title": "Particl",
+    "parent": "BTC",
+    "slip44": 44,
+    "chainparams": {
+      "pubKeyHash": 56,
+      "scriptHash": 60,
+      "wif": 108
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://explorer.particl.io/api"
+    }
+  },
+  "IOP": {
+    "title": "Internet of People",
+    "parent": "BTC",
+    "slip44": 66,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 40931679,
+          "private": 2922649334
+        }
+      },
+      "pubKeyHash": 117,
+      "scriptHash": 174,
+      "wif": 49
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://mainnet.iop.cash/api"
+    }
+  },
+  "ELA": {
+    "title": "Elastos",
+    "parent": "BTC",
+    "slip44": 2305,
+    "chainparams": {
+      "pubKeyHash": 99,
+      "scriptHash": 99,
+      "wif": 99
+    },
+    "api": {
+      "type": "insight",
+      "url": "https://blockchain.elastos.org/api"
+    }
   }
 };
 

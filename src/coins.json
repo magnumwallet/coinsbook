@@ -1,1 +1,3852 @@
-{"XTZ":{"title":"Tezos","type":"tezos","decimals":6,"curve":"ed25519","slip44":1729,"api":[{"url":"https://mainnet.tezrpc.me"}],"coin":"XTZ","name":"tezos","ticker":"XTZ","satoshi":1000000},"TRX":{"title":"TRON","decimals":6,"slip44":195,"coin":"TRX","name":"tron","ticker":"TRX","satoshi":1000000},"BNB":{"title":"Binance Chain","type":"tendermint","decimals":8,"slip44":714,"coin":"BNB","name":"binance chain","ticker":"BNB","satoshi":100000000},"BNB_TEST":{"title":"Binance Chain (Testnet)","type":"tendermint","decimals":8,"slip44":714,"coin":"BNB","name":"binance chain","ticker":"BNB","satoshi":100000000,"parent":"BNB"},"XEM":{"title":"NEM","type":"nem","decimals":6,"slip44":43,"coin":"XEM","name":"nem","ticker":"XEM","satoshi":1000000},"XLM":{"title":"Stellar","type":"stellar","decimals":7,"slip44":148,"coin":"XLM","name":"stellar","ticker":"XLM","satoshi":10000000},"KIN":{"title":"Kin","type":"stellar","decimals":5,"slip44":2017,"coin":"KIN","name":"kin","ticker":"KIN","satoshi":100000},"ETH":{"title":"Ethereum","decimals":18,"slip44":60,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000},"ETC":{"title":"Ethereum Classic","decimals":18,"slip44":61,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH","forked":[{"coin":"ETH","height":1920001,"timestamp":1468962000,"ratio":1}],"api":[{"url":"https://ethereumclassic.network"}]},"IOST":{"title":"Ethereum","decimals":8,"slip44":291,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":100000000,"parent":"ETH"},"IOST_TEST":{"title":"IOST (Testnet)","decimals":8,"slip44":291,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":100000000,"parent":"IOST"},"ETZ":{"title":"EtherZero","decimals":18,"slip44":60,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH","forked":[{"coin":"ETH","height":4936270,"timestamp":1516377600,"ratio":1}],"api":[{"url":"https://etzrpc.org"}]},"AION":{"title":"Aion","decimals":18,"slip44":425,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH"},"ETI":{"title":"EtherInc","decimals":18,"slip44":464,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH","forked":[{"coin":"ETH","height":5078585,"timestamp":1518452865,"ratio":1}],"api":[{"url":"https://api.einc.io/jsonrpc/mainnet/"}]},"CLO":{"title":"Callisto Network","decimals":18,"slip44":820,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETC","forked":[{"coin":"ETC","height":5500000,"timestamp":1520261760,"ratio":1}],"api":[{"url":"https://clo-geth.0xinfra.com/"}]},"UBQ":{"title":"Ubiq","decimals":18,"slip44":141,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH","chainparams":{"networkId":8},"api":[{"type":"web3","url":"https://pyrus2.ubiqscan.io","api":"https://ubiqscan.io"}]},"EXP":{"title":"Expanse","decimals":18,"slip44":40,"coin":"ETH","name":"ethereum","ticker":"ETH","satoshi":1000000000000000000,"parent":"ETH","chainparams":{"networkId":2},"api":[{"type":"web3","url":"https://node.expanse.tech","api":"https://explorer.expanse.tech"}]},"BTC":{"title":"Bitcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":0,"scriptHash":5,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"api":[{"type":"insight","url":"https://explorer.bitcoininterest.io/api"},{"type":"blockbook","url":"https://btc1.trezor.io"},{"type":"blockbook","url":"https://btc2.trezor.io"}],"electrum":["electrum.hodlister.co:s50002","btc.jochen-hoenicke.de:s50002","hetzner01.fischl-online.de:s50002","37.187.141.73:s50002","electrum.nute.net:50002","109.192.105.174:s50002","fedaykin.goip.de:s50002","62.210.6.26:s50002","e-1.claudioboxx.com:s50002","88.198.39.205:s50002","orannis.com:s50001","electrum.anduck.net:s50012"],"explorer":[{"address":"https://btc1.trezor.io/address/%address%","tx":"https://btc1.trezor.io/tx/%hash%"}],"genesis":"000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f","blocktime":600,"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000},"BCI":{"title":"Bitcoin Interest","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":102,"scriptHash":23,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":20224,"witness":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://explorer.bitcoininterest.io/api"}],"electrum":["wallet.bitcoininterest.io:s50002"]},"RDD":{"title":"ReddCoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":4,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":61,"scriptHash":5,"wif":189,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://live.reddcoin.com/api"}]},"ZEN":{"title":"Horizen","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":121,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":8329,"scriptHash":8342,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://explorer.zensystem.io/api"}]},"LEO":{"title":"Leocoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":18,"scriptHash":88,"wif":144,"hash_functions":{"address":"hash256","transaction":"hash256"},"txdatetime":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://insight.leocoin.org/api"}]},"BCH":{"title":"Bitcoin Cash","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":145,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":0,"scriptHash":5,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"addr_prefix":"bitcoincash","forkId":0},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":478558,"timestamp":1501534800,"ratio":"1:1"}],"api":[{"type":"insight","url":"https://www.blockdozer.com/insight-api"}],"electrum":["electroncash.dk:s50002","electrumx-bch.cryptonermal.net:s50002","electrumx-cash.1209k.com:s50002","dedi.jochen-hoenicke.de:s51002","electrum.imaginary.cash:s50002","bab.electrumx.cash:s60002"]},"BSV":{"title":"Bitcoin SV","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":236,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":0,"scriptHash":5,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"addr_prefix":"bitcoincash","forkId":0},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BCH","forked":[{"coin":"BCH","height":556766,"timestamp":1542293520,"ratio":"1:1"}],"api":[{"type":"insight","url":"https://bchsvexplorer.com/api"}],"electrum":["sv.satoshi.io:s50002","sv2.satoshi.io:s50002","electron.bitcoinsv.io:s50002","electrumx-sv.1209k.com:s50002","sv.jochen-hoenicke.de:s50002","electroncash.cascharia.com:s50002","sv.electrumx.cash:s50002","satoshi.vision.cash:s50002"]},"BTG":{"title":"Bitcoin Gold","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":156,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":38,"scriptHash":23,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":79},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":491407,"timestamp":1508792400,"ratio":"1:1"}],"api":[{"type":"insight","url":"https://explorer.bitcoingold.org/insight-api"}],"electrum":["electrumx-eu.bitcoingold.org:s50002","electrumx-us.bitcoingold.org:s50002","electrumx-eu.btcgpu.org:s50002","electrumx-us.btcgpu.org:s51002"]},"ANON":{"title":"Bitcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":220,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":1410,"scriptHash":21385,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":10752},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":540870,"timestamp":1536616749,"ratio":"1:1"},{"coin":"ZCL","height":382307,"timestamp":1536627625,"ratio":"1:2"}],"mainnet":1536875949,"api":[{"type":"insight","url":"https://explorer.anon.zeltrez.io/api"}]},"PPC":{"title":"Peercoin","type":"bitcoin","decimals":6,"curve":"secp256k1","slip44":6,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":55,"scriptHash":117,"wif":183,"hash_functions":{"address":"hash256","transaction":"hash256"},"txdatetime":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":1000000,"parent":"BTC","api":[{"type":"iquidus","url":"https://explorer.peercoin.net"}],"electrum":["explorer.peercoin.net:s50002","electrum.peercoinexplorer.net:s50002"]},"ZEC":{"title":"Zcash","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":133,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":7352,"scriptHash":7357,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"consensusBranchId":{"1":0,"2":0,"3":1537743641,"4":1991772603}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","electrum":["electrum.novit.ro:t50001","35.224.186.7:t50001"]},"ZCL":{"title":"Zclassic","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":147,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":7352,"scriptHash":7357,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"consensusBranchId":{"1":0,"2":0,"3":1537743641,"4":1991772603}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"ZEC","api":[{"type":"insight","url":"https://explorer.zcl.zeltrez.io/api"}],"electrum":["electrum.zclassic.community:s50002","zclele.duckdns.org:s50002"]},"ZEL":{"title":"ZelCash","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":19167,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":7352,"scriptHash":7357,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"consensusBranchId":{"1":0,"2":0,"3":1537743641,"4":1991772603}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"ZEC","api":[{"type":"insight","url":"https://explorer.zel.cash/api"}]},"KMD":{"title":"Komodo","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":141,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":60,"scriptHash":5,"wif":188,"hash_functions":{"address":"hash256","transaction":"hash256"},"consensusBranchId":{"1":0,"2":0,"3":1537743641,"4":1991772603}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"ZEC","api":[{"type":"insight","url":"http://kmd.explorer.dexstats.info/insight-api-komodo"},{"type":"insight","url":"https://explorer.komodo.services/api"},{"type":"insight","url":"https://kmdexplorer.io/insight-api-komodo"}],"electrum":["electrum1.cipig.net:t10001","electrum2.cipig.net:t10001","electrum3.cipig.net:t10001"]},"ZILLA":{"title":"ChainZilla","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":141,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":60,"scriptHash":5,"wif":188,"hash_functions":{"address":"hash256","transaction":"hash256"},"consensusBranchId":{"1":0,"2":0,"3":1537743641,"4":1991772603}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"KMD"},"DGB":{"title":"DigiByte","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":20,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":30,"scriptHash":5,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://digiexplorer.info/api"}]},"LTC":{"title":"Litecoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":2,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"ltc","pubKeyHash":48,"scriptHash":50,"wif":176,"hash_functions":{"address":"hash256","transaction":"hash256"},"magic_alternates":{"Ltub":{"xpub":{"public":27108450,"private":27106558},"ypub":{"public":28471030,"private":28469138}}}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","electrum":["ltc.rentonisk.com:s50002","electrum-ltc.petrkr.net:s60002","electrum-ltc.bysh.me:s50002","electrum.ltc.xurious.com:s50002"]},"LCC":{"title":"Litecoin Cash","type":"bitcoin","decimals":7,"curve":"secp256k1","slip44":192,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"lcc","pubKeyHash":28,"scriptHash":50,"wif":176,"hash_functions":{"address":"hash256","transaction":"hash256"},"scriptHash2":5,"forkId":64},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":10000000,"parent":"BTC","forked":[{"coin":"LTC","height":1371111,"timestamp":1518982404,"ratio":1}],"api":[{"type":"cryptoid"}],"electrum":["hetzner01.fischl-online.de:s50010"]},"DASH":{"title":"Dash","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":5,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":76,"scriptHash":16,"wif":204,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://insight.dash.org/insight-api"}],"electrum":["electrum.dash.org:s50002","electrum.masternode.io:s50002","electrum-drk.club:s50002","dashcrypto.space:s50002","drk.p2pay.com:s50002","electrum.dash.siampm.com:s50002"]},"BTCP":{"title":"Bitcoin Private","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":183,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":4901,"scriptHash":5039,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":10752},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":511346,"timestamp":1519826818,"ratio":1},{"coin":"ZCL","height":272991,"timestamp":1519837402,"ratio":1}],"api":[{"type":"insight","url":"https://explorer.btcprivate.org/api"}]},"BCX":{"title":"BitcoinX","type":"bitcoin","decimals":4,"curve":"secp256k1","slip44":1688,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":75,"scriptHash":63,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":16,"witness":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":10000,"parent":"BTC","forked":[{"coin":"BTC","height":498888,"timestamp":1513074593,"ratio":"1:10000"}],"api":[{"type":"insight","url":"https://bcx.info/insight-api"}]},"BTX":{"title":"Bitcore","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":160,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"btx","pubKeyHash":3,"scriptHash":125,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":492820,"timestamp":1509643431,"ratio":"1:0.5"}],"api":[{"type":"insight","url":"https://insight.bitcore.cc/api"}],"electrum":["ele1.bitcore.cc:s50002","ele2.bitcore.cc:s50002","ele3.bitcore.cc:s50002","ele4.bitcore.cc:s50002"]},"BSD":{"title":"BitSend","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":91,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":102,"scriptHash":5,"wif":204,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"BTDX":{"title":"Bitcloud","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":128,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":25,"scriptHash":5,"wif":153,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"MEC":{"title":"Megacoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":217,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":50,"scriptHash":34,"wif":178,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"MBC":{"title":"Micro Bitcoin","type":"bitcoin","decimals":4,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":26,"scriptHash":51,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"forkId":96},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":10000,"parent":"BTC","tickers":{"cryptocompare":"MBTC"},"forked":[{"coin":"BTC","height":525000,"timestamp":1527625482,"ratio":10000}],"api":[{"type":"mbc","url":"https://api.mbc.wiki"}],"electrum":["52.78.182.106:t7403","13.57.248.201:t7403"]},"BZX":{"title":"BitcoinZero","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":284,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":75,"scriptHash":34,"wif":210,"hash_functions":{"address":"hash256","transaction":"hash256"},"cointype":284},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"GXX":{"title":"GravityCoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":285,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":40,"scriptHash":10,"wif":210,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"XBA":{"title":"Bitcoin Air","type":"bitcoin","decimals":6,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":75,"scriptHash":117,"wif":203,"hash_functions":{"address":"hash256","transaction":"hash256"},"messagePrefix":"BitcoinAir","txdatetime":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":1000000,"parent":"BTC","forked":[{"coin":"BTC","height":551200,"timestamp":1542987458,"ratio":1},{"coin":"PPC","height":403400,"timestamp":1544889622,"ratio":20}],"api":[{"type":"iquidus","url":"https://explorer.bitcoinair.net"}]},"GRS":{"title":"Groestlcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":17,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"grs","pubKeyHash":36,"scriptHash":5,"wif":128,"hash_functions":{"address":"groestl","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://groestlsight.groestlcoin.org/api"}],"electrum":["electrum1.groestlcoin.org:s50002","electrum2.groestlcoin.org:s50002","electrum3.groestlcoin.org:s50002","electrum10.groestlcoin.org:s50002","electrum20.groestlcoin.org:s50002","electrum30.groestlcoin.org:s50002","electrum40.groestlcoin.org:s50002"]},"VIA":{"title":"Viacoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":14,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":71,"scriptHash":33,"wif":199,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://explorer.viacoin.org/api"}]},"NIX":{"title":"Bitcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":400,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":38,"scriptHash":53,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://blockchain.nixplatform.io/api"}]},"PIVX":{"title":"Bitcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":119,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":30,"scriptHash":13,"wif":212,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"cryptoid"}]},"FLO":{"title":"Bitcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":216,"chainparams":{"magic":{"xpub":{"public":20201579,"private":20200497}},"bech32":"bc","pubKeyHash":35,"scriptHash":8,"wif":163,"hash_functions":{"address":"hash256","transaction":"hash256"},"pubKeyHash2":94,"wif2":176},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://livenet.flocha.in/api"}]},"XZC":{"title":"ZCoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":136,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":82,"scriptHash":7,"wif":210,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://explorer.zcoin.io/api"}]},"XMY":{"title":"Myriadcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":90,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":50,"scriptHash":9,"wif":178,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"http://insight-myr.cryptap.us/api"}]},"FTC":{"title":"Feathercoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":8,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":14,"scriptHash":5,"wif":142,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://explorer.feathercoin.com/api"}]},"ECA":{"title":"Electra","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":249,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":33,"scriptHash":40,"wif":161,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"iquidus","url":"https://tec.electraproject.org"}],"electrum":["54.38.53.207:s50002"]},"DOGE":{"title":"Dogecoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":3,"chainparams":{"magic":{"xpub":{"public":49990397,"private":49988504}},"bech32":"bc","pubKeyHash":30,"scriptHash":22,"wif":158,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC"},"MONA":{"title":"Monacoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":22,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":50,"scriptHash":5,"wif":176,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"https://mona.chainsight.info/api"}],"electrum":["electrumx2.monacoin.ninja:s50002","electrumx2.tamami-foundation.org:s50002","electrumx1.monacoin.nl:s50002","electrum-mona.bitbank.cc:s50002"]},"XVG":{"title":"Verge","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":77,"chainparams":{"magic":{"xpub":{"public":36513075,"private":35729707}},"bech32":"bc","pubKeyHash":30,"scriptHash":33,"wif":158,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"iquidus","url":"https://verge-blockchain.info"}],"electrum":["e1.verge-electrum.com:s50002","e1.verge-electrum.com:t50001","e2.verge-electrum.com:s50002","e2.verge-electrum.com:t50001","e3.verge-electrum.com:s50002","e3.verge-electrum.com:t50001","electrum-verge.xyz:s50002","electrum-verge.xyz:t50001","electrum-xvg.stream:s50002","electrum-xvg.stream:t50001","electrum-xvg.party:s50002","electrum-xvg.party:t50001","xvg.verge-blockchain.info:s50002","xvg.verge-blockchain.info:t50001","83.169.38.218:s50002","83.169.38.218:t50003","46.163.118.201:s50002","elec2.verge-blockchain.com:s50002","91.250.119.239:s50002","94.130.90.213:s50002","94.130.90.213:t50001"]},"BTH":{"title":"Bithereum","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":0,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":25,"scriptHash":40,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","api":[{"type":"insight","url":"http://explorer.bithereum.network/insight-api"}]},"VTC":{"title":"Vertcoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":28,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":71,"scriptHash":5,"wif":28,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","electrum":["fr1.vtconline.org:s55002","vtc.horriblecoders.com:s55002","vtc.lukechilds.co:s55002","vtc-cce-1.coinomi.net:t5028"]},"NLG":{"title":"Gulden","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":87,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":38,"scriptHash":98,"wif":166,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC"},"QTUM":{"title":"Qtum","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":2301,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":58,"scriptHash":50,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","electrum":["s1.qtum.info:s50002","s2.qtum.info:s50002","s3.qtum.info:s50002","s4.qtum.info:s50002","s5.qtum.info:s50002","s7.qtum.info:s50002","s8.qtum.info:s50002","s9.qtum.info:s50002"]},"NMC":{"title":"Namecoin","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":7,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":52,"scriptHash":13,"wif":180,"hash_functions":{"address":"hash256","transaction":"hash256"}},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","electrum":["elec.luggs.co:s446","ulrichard.ch:t50005","ulrichard.ch:s50006","luggscoqbymhvnkp.onion:t82","electrum-nmc.le-space.de:s50002","nmc.bitcoins.sk:s50002"]},"BCD":{"title":"Bitcoin Diamond","type":"bitcoin","decimals":8,"curve":"secp256k1","slip44":999,"chainparams":{"magic":{"xpub":{"public":76067358,"private":76066276},"ypub":{"public":77429938,"private":77428856},"zpub":{"public":78792518,"private":78791436},"Ypub":{"public":43365439,"private":43364357},"Zpub":{"public":44728019,"private":44726937}},"bech32":"bc","pubKeyHash":0,"scriptHash":5,"wif":128,"hash_functions":{"address":"hash256","transaction":"hash256"},"txblockhash":true},"coin":"BTC","name":"bitcoin","ticker":"BTC","satoshi":100000000,"parent":"BTC","forked":[{"coin":"BTC","height":495866,"timestamp":1511515212,"ratio":10}],"electrum":["seed1.electrum.btcd.io:s50002"]}}
+{
+  "XTZ": {
+    "title": "Tezos",
+    "type": "tezos",
+    "decimals": 6,
+    "curve": "ed25519",
+    "slip44": 1729,
+    "api": [
+      {
+        "url": "https://mainnet.tezrpc.me"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://tzscan.io/%address%",
+        "tx": "https://tzscan.io/%hash%"
+      }
+    ],
+    "coin": "XTZ",
+    "name": "tezos",
+    "ticker": "XTZ",
+    "satoshi": 1000000
+  },
+  "TRX": {
+    "title": "TRON",
+    "decimals": 6,
+    "slip44": 195,
+    "explorer": [
+      {
+        "address": "https://tronscan.org/#/address/%address%",
+        "tx": "https://tronscan.org/#/transaction/%hash%"
+      }
+    ],
+    "coin": "TRX",
+    "name": "tron",
+    "ticker": "TRX",
+    "satoshi": 1000000
+  },
+  "BNB": {
+    "title": "Binance Chain",
+    "type": "tendermint",
+    "decimals": 8,
+    "slip44": 714,
+    "explorer": [
+      {
+        "address": "https://explorer.binance.org/address/%address%",
+        "tx": "https://explorer.binance.org/tx/%hash%"
+      }
+    ],
+    "coin": "BNB",
+    "name": "binance chain",
+    "ticker": "BNB",
+    "satoshi": 100000000
+  },
+  "BNB_TEST": {
+    "title": "Binance Chain (Testnet)",
+    "type": "tendermint",
+    "decimals": 8,
+    "slip44": 714,
+    "satoshi": 100000000,
+    "parent": "BNB",
+    "explorer": [
+      {
+        "address": "https://testnet-explorer.binance.org/address/%address%",
+        "tx": "https://testnet-explorer.binance.org/tx/%hash%"
+      }
+    ],
+    "coin": "BNB_TEST",
+    "name": "binance chain (testnet)",
+    "ticker": "BNB_TEST"
+  },
+  "XEM": {
+    "title": "NEM",
+    "type": "nem",
+    "decimals": 6,
+    "slip44": 43,
+    "explorer": [
+      {
+        "address": "http://explorer.nemchina.com/#/s_account?account=%address%",
+        "tx": "http://explorer.nemchina.com/#/s_tx?hash=%hash%"
+      }
+    ],
+    "coin": "XEM",
+    "name": "nem",
+    "ticker": "XEM",
+    "satoshi": 1000000
+  },
+  "XLM": {
+    "title": "Stellar",
+    "type": "stellar",
+    "decimals": 7,
+    "slip44": 148,
+    "explorer": [
+      {
+        "address": "https://steexp.com/account/%address%",
+        "tx": "https://steexp.com/tx/%hash%"
+      }
+    ],
+    "coin": "XLM",
+    "name": "stellar",
+    "ticker": "XLM",
+    "satoshi": 10000000
+  },
+  "KIN": {
+    "title": "Kin",
+    "type": "stellar",
+    "decimals": 5,
+    "slip44": 2017,
+    "explorer": [
+      {
+        "address": "https://www.kin.org/blockchainAccount/?&dataType=public&header=accountID&id=%address%",
+        "tx": "https://www.kin.org/blockchainInfoPage/?&dataType=public&header=Transaction&id=%hash%"
+      }
+    ],
+    "coin": "KIN",
+    "name": "kin",
+    "ticker": "KIN",
+    "satoshi": 100000
+  },
+  "ETH": {
+    "title": "Ethereum",
+    "decimals": 18,
+    "slip44": 60,
+    "explorer": [
+      {
+        "address": "https://etherscan.io/address/%address%",
+        "tx": "https://etherscan.io/tx/%hash%"
+      }
+    ],
+    "coin": "ETH",
+    "name": "ethereum",
+    "ticker": "ETH",
+    "satoshi": 1000000000000000000
+  },
+  "ETC": {
+    "title": "Ethereum Classic",
+    "decimals": 18,
+    "slip44": 61,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "forked": [
+      {
+        "coin": "ETH",
+        "height": 1920001,
+        "timestamp": 1468962000,
+        "ratio": 1
+      }
+    ],
+    "api": [
+      {
+        "url": "https://ethereumclassic.network"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://gastracker.io/addr/%address%",
+        "tx": "https://gastracker.io/tx/%hash%"
+      }
+    ],
+    "coin": "ETC",
+    "name": "ethereum classic",
+    "ticker": "ETC"
+  },
+  "IOST": {
+    "title": "Ethereum",
+    "decimals": 8,
+    "slip44": 291,
+    "satoshi": 100000000,
+    "parent": "ETH",
+    "explorer": [
+      {
+        "address": "https://explorer.iost.io/account/%address%",
+        "tx": "https://explorer.iost.io/tx/%hash%"
+      }
+    ],
+    "coin": "IOST",
+    "name": "ethereum",
+    "ticker": "IOST"
+  },
+  "IOST_TEST": {
+    "title": "IOST (Testnet)",
+    "decimals": 8,
+    "slip44": 291,
+    "satoshi": 100000000,
+    "parent": "IOST",
+    "explorer": [
+      {
+        "address": "http://54.249.186.224/account/%address%",
+        "tx": "http://54.249.186.224/tx/%hash%"
+      }
+    ],
+    "coin": "IOST_TEST",
+    "name": "iost (testnet)",
+    "ticker": "IOST_TEST"
+  },
+  "ETZ": {
+    "title": "EtherZero",
+    "decimals": 18,
+    "slip44": 60,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "forked": [
+      {
+        "coin": "ETH",
+        "height": 4936270,
+        "timestamp": 1516377600,
+        "ratio": 1
+      }
+    ],
+    "api": [
+      {
+        "url": "https://etzrpc.org"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://etzscan.com/addr/%address%",
+        "tx": "https://etzscan.com/tx/%hash%"
+      }
+    ],
+    "coin": "ETZ",
+    "name": "etherzero",
+    "ticker": "ETZ"
+  },
+  "AION": {
+    "title": "Aion",
+    "decimals": 18,
+    "slip44": 425,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "explorer": [
+      {
+        "address": "https://mainnet.aion.network/#/account/%address%",
+        "tx": "https://mainnet.aion.network/#/transaction/%hash%"
+      }
+    ],
+    "coin": "AION",
+    "name": "aion",
+    "ticker": "AION"
+  },
+  "ETI": {
+    "title": "EtherInc",
+    "decimals": 18,
+    "slip44": 464,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "forked": [
+      {
+        "coin": "ETH",
+        "height": 5078585,
+        "timestamp": 1518452865,
+        "ratio": 1
+      }
+    ],
+    "api": [
+      {
+        "url": "https://api.einc.io/jsonrpc/mainnet/"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.einc.io/addr/%address%",
+        "tx": "https://explorer.einc.io/tx/%hash%"
+      }
+    ],
+    "coin": "ETI",
+    "name": "etherinc",
+    "ticker": "ETI"
+  },
+  "CLO": {
+    "title": "Callisto Network",
+    "decimals": 18,
+    "slip44": 820,
+    "satoshi": 1000000000000000000,
+    "parent": "ETC",
+    "forked": [
+      {
+        "coin": "ETC",
+        "height": 5500000,
+        "timestamp": 1520261760,
+        "ratio": 1
+      }
+    ],
+    "api": [
+      {
+        "url": "https://clo-geth.0xinfra.com/"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.callisto.network/account/%address%",
+        "tx": "https://explorer.callisto.network/tx/%hash%"
+      }
+    ],
+    "coin": "CLO",
+    "name": "callisto network",
+    "ticker": "CLO"
+  },
+  "UBQ": {
+    "title": "Ubiq",
+    "decimals": 18,
+    "slip44": 141,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "chainparams": {
+      "networkId": 8
+    },
+    "api": [
+      {
+        "type": "web3",
+        "url": "https://pyrus2.ubiqscan.io",
+        "api": "https://ubiqscan.io"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://ubiqscan.io/address/%address%",
+        "tx": "https://ubiqscan.io/tx/%hash%"
+      }
+    ],
+    "coin": "UBQ",
+    "name": "ubiq",
+    "ticker": "UBQ"
+  },
+  "EXP": {
+    "title": "Expanse",
+    "decimals": 18,
+    "slip44": 40,
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
+    "chainparams": {
+      "networkId": 2
+    },
+    "api": [
+      {
+        "type": "web3",
+        "url": "https://node.expanse.tech",
+        "api": "https://explorer.expanse.tech"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.expanse.tech/account/%address%",
+        "tx": "https://explorer.expanse.tech/tx/%hash%"
+      }
+    ],
+    "coin": "EXP",
+    "name": "expanse",
+    "ticker": "EXP"
+  },
+  "BTC": {
+    "title": "Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.bitcoininterest.io/api"
+      },
+      {
+        "type": "blockbook",
+        "url": "https://btc1.trezor.io"
+      },
+      {
+        "type": "blockbook",
+        "url": "https://btc2.trezor.io"
+      }
+    ],
+    "electrum": [
+      "electrum.hodlister.co:s50002",
+      "btc.jochen-hoenicke.de:s50002",
+      "hetzner01.fischl-online.de:s50002",
+      "37.187.141.73:s50002",
+      "electrum.nute.net:50002",
+      "109.192.105.174:s50002",
+      "fedaykin.goip.de:s50002",
+      "62.210.6.26:s50002",
+      "e-1.claudioboxx.com:s50002",
+      "88.198.39.205:s50002",
+      "orannis.com:s50001",
+      "electrum.anduck.net:s50012"
+    ],
+    "explorer": [
+      {
+        "address": "https://btc1.trezor.io/address/%address%",
+        "tx": "https://btc1.trezor.io/tx/%hash%"
+      }
+    ],
+    "genesis": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+    "blocktime": 600,
+    "coin": "BTC",
+    "name": "bitcoin",
+    "ticker": "BTC",
+    "satoshi": 100000000
+  },
+  "BCI": {
+    "title": "Bitcoin Interest",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 102,
+      "scriptHash": 23,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 20224,
+      "witness": true
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.bitcoininterest.io/api"
+      }
+    ],
+    "electrum": [
+      "wallet.bitcoininterest.io:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoininterest.io/address/%address%",
+        "tx": "https://explorer.bitcoininterest.io/tx/%hash%"
+      }
+    ],
+    "coin": "BCI",
+    "name": "bitcoin interest",
+    "ticker": "BCI"
+  },
+  "RDD": {
+    "title": "ReddCoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 4,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 61,
+      "scriptHash": 5,
+      "wif": 189,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://live.reddcoin.com/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://live.reddcoin.com/address/%address%",
+        "tx": "https://live.reddcoin.com/tx/%hash%"
+      }
+    ],
+    "coin": "RDD",
+    "name": "reddcoin",
+    "ticker": "RDD"
+  },
+  "ZEN": {
+    "title": "Horizen",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 121,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 8329,
+      "scriptHash": 8342,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.zensystem.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zensystem.io/address/%address%",
+        "tx": "https://explorer.zensystem.io/tx/%hash%"
+      }
+    ],
+    "coin": "ZEN",
+    "name": "horizen",
+    "ticker": "ZEN"
+  },
+  "LEO": {
+    "title": "Leocoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 18,
+      "scriptHash": 88,
+      "wif": 144,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "txdatetime": true
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://insight.leocoin.org/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.leocoin.org/address/%address%",
+        "tx": "https://insight.leocoin.org/tx/%hash%"
+      }
+    ],
+    "coin": "LEO",
+    "name": "leocoin",
+    "ticker": "LEO"
+  },
+  "BCH": {
+    "title": "Bitcoin Cash",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 145,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "addr_prefix": "bitcoincash",
+      "forkId": 0
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 478558,
+        "timestamp": 1501534800,
+        "ratio": "1:1"
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://www.blockdozer.com/insight-api"
+      }
+    ],
+    "electrum": [
+      "electroncash.dk:s50002",
+      "electrumx-bch.cryptonermal.net:s50002",
+      "electrumx-cash.1209k.com:s50002",
+      "dedi.jochen-hoenicke.de:s51002",
+      "electrum.imaginary.cash:s50002",
+      "bab.electrumx.cash:s60002"
+    ],
+    "explorer": [
+      {
+        "address": "https://www.blockdozer.com/address/%address%",
+        "tx": "https://www.blockdozer.com/tx/%hash%"
+      }
+    ],
+    "coin": "BCH",
+    "name": "bitcoin cash",
+    "ticker": "BCH"
+  },
+  "BSV": {
+    "title": "Bitcoin SV",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 236,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "addr_prefix": "bitcoincash",
+      "forkId": 0
+    },
+    "satoshi": 100000000,
+    "parent": "BCH",
+    "forked": [
+      {
+        "coin": "BCH",
+        "height": 556766,
+        "timestamp": 1542293520,
+        "ratio": "1:1"
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://bchsvexplorer.com/api"
+      }
+    ],
+    "electrum": [
+      "sv.satoshi.io:s50002",
+      "sv2.satoshi.io:s50002",
+      "electron.bitcoinsv.io:s50002",
+      "electrumx-sv.1209k.com:s50002",
+      "sv.jochen-hoenicke.de:s50002",
+      "electroncash.cascharia.com:s50002",
+      "sv.electrumx.cash:s50002",
+      "satoshi.vision.cash:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://blockchair.com/bitcoin-sv/address/%address%",
+        "tx": "https://blockchair.com/bitcoin-sv/transaction/%hash%"
+      }
+    ],
+    "coin": "BSV",
+    "name": "bitcoin sv",
+    "ticker": "BSV"
+  },
+  "BTG": {
+    "title": "Bitcoin Gold",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 156,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 38,
+      "scriptHash": 23,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 79
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 491407,
+        "timestamp": 1508792400,
+        "ratio": "1:1"
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.bitcoingold.org/insight-api"
+      }
+    ],
+    "electrum": [
+      "electrumx-eu.bitcoingold.org:s50002",
+      "electrumx-us.bitcoingold.org:s50002",
+      "electrumx-eu.btcgpu.org:s50002",
+      "electrumx-us.btcgpu.org:s51002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoingold.org/insight/address/%address%",
+        "tx": "https://explorer.bitcoingold.org/insight/tx/%hash%"
+      }
+    ],
+    "coin": "BTG",
+    "name": "bitcoin gold",
+    "ticker": "BTG"
+  },
+  "ANON": {
+    "title": "Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 220,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 1410,
+      "scriptHash": 21385,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 10752
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 540870,
+        "timestamp": 1536616749,
+        "ratio": "1:1"
+      },
+      {
+        "coin": "ZCL",
+        "height": 382307,
+        "timestamp": 1536627625,
+        "ratio": "1:2"
+      }
+    ],
+    "mainnet": 1536875949,
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.anon.zeltrez.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://anon.mgnm.rocks/address/%address%",
+        "tx": "https://anon.mgnm.rocks/tx/%hash%"
+      }
+    ],
+    "coin": "ANON",
+    "name": "bitcoin",
+    "ticker": "ANON"
+  },
+  "PPC": {
+    "title": "Peercoin",
+    "type": "bitcoin",
+    "decimals": 6,
+    "curve": "secp256k1",
+    "slip44": 6,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 55,
+      "scriptHash": 117,
+      "wif": 183,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "txdatetime": true
+    },
+    "satoshi": 1000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "iquidus",
+        "url": "https://explorer.peercoin.net"
+      }
+    ],
+    "electrum": [
+      "explorer.peercoin.net:s50002",
+      "electrum.peercoinexplorer.net:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.peercoin.net/address/%address%",
+        "tx": "https://explorer.peercoin.net/tx/%hash%"
+      }
+    ],
+    "coin": "PPC",
+    "name": "peercoin",
+    "ticker": "PPC"
+  },
+  "ZEC": {
+    "title": "Zcash",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 133,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 7352,
+      "scriptHash": 7357,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "consensusBranchId": {
+        "1": 0,
+        "2": 0,
+        "3": 1537743641,
+        "4": 1991772603
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "electrum": [
+      "electrum.novit.ro:t50001",
+      "35.224.186.7:t50001"
+    ],
+    "explorer": [
+      {
+        "address": "https://zcashnetwork.info/address/%address%",
+        "tx": "https://zcashnetwork.info/tx/%hash%"
+      }
+    ],
+    "coin": "ZEC",
+    "name": "zcash",
+    "ticker": "ZEC"
+  },
+  "ZCL": {
+    "title": "Zclassic",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 147,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 7352,
+      "scriptHash": 7357,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "consensusBranchId": {
+        "1": 0,
+        "2": 0,
+        "3": 1537743641,
+        "4": 1991772603
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "ZEC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.zcl.zeltrez.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zcl.zeltrez.io/address/%address%",
+        "tx": "https://explorer.zcl.zeltrez.io/tx/%hash%"
+      }
+    ],
+    "electrum": [
+      "electrum.zclassic.community:s50002",
+      "zclele.duckdns.org:s50002"
+    ],
+    "coin": "ZCL",
+    "name": "zclassic",
+    "ticker": "ZCL"
+  },
+  "ZEL": {
+    "title": "ZelCash",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 19167,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 7352,
+      "scriptHash": 7357,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "consensusBranchId": {
+        "1": 0,
+        "2": 0,
+        "3": 1537743641,
+        "4": 1991772603
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "ZEC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.zel.cash/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zel.cash/address/%address%",
+        "tx": "https://explorer.zel.cash/tx/%hash%"
+      }
+    ],
+    "coin": "ZEL",
+    "name": "zelcash",
+    "ticker": "ZEL"
+  },
+  "KMD": {
+    "title": "Komodo",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 141,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 60,
+      "scriptHash": 5,
+      "wif": 188,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "consensusBranchId": {
+        "1": 0,
+        "2": 0,
+        "3": 1537743641,
+        "4": 1991772603
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "ZEC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "http://kmd.explorer.dexstats.info/insight-api-komodo"
+      },
+      {
+        "type": "insight",
+        "url": "https://explorer.komodo.services/api"
+      },
+      {
+        "type": "insight",
+        "url": "https://kmdexplorer.io/insight-api-komodo"
+      }
+    ],
+    "electrum": [
+      "electrum1.cipig.net:t10001",
+      "electrum2.cipig.net:t10001",
+      "electrum3.cipig.net:t10001"
+    ],
+    "explorer": [
+      {
+        "address": "https://kmd.mgnm.rocks/address/%address%",
+        "tx": "https://kmd.mgnm.rocks/tx/%hash%"
+      }
+    ],
+    "coin": "KMD",
+    "name": "komodo",
+    "ticker": "KMD"
+  },
+  "ZILLA": {
+    "title": "ChainZilla",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 141,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 60,
+      "scriptHash": 5,
+      "wif": 188,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "consensusBranchId": {
+        "1": 0,
+        "2": 0,
+        "3": 1537743641,
+        "4": 1991772603
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "KMD",
+    "explorer": [
+      {
+        "address": "https://zilla.kmdexplorer.io/address/%address%",
+        "tx": "https://zilla.kmdexplorer.io/tx/%hash%"
+      }
+    ],
+    "coin": "ZILLA",
+    "name": "chainzilla",
+    "ticker": "ZILLA"
+  },
+  "DGB": {
+    "title": "DigiByte",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 20,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 30,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://digiexplorer.info/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://digiexplorer.info/address/%address%",
+        "tx": "https://digiexplorer.info/tx/%hash%"
+      }
+    ],
+    "coin": "DGB",
+    "name": "digibyte",
+    "ticker": "DGB"
+  },
+  "LTC": {
+    "title": "Litecoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 2,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "ltc",
+      "pubKeyHash": 48,
+      "scriptHash": 50,
+      "wif": 176,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "magic_alternates": {
+        "Ltub": {
+          "xpub": {
+            "public": 27108450,
+            "private": 27106558
+          },
+          "ypub": {
+            "public": 28471030,
+            "private": 28469138
+          }
+        }
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "electrum": [
+      "ltc.rentonisk.com:s50002",
+      "electrum-ltc.petrkr.net:s60002",
+      "electrum-ltc.bysh.me:s50002",
+      "electrum.ltc.xurious.com:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://ltc.mgnm.rocks/address/%address%",
+        "tx": "https://ltc.mgnm.rocks/tx/%hash%"
+      }
+    ],
+    "coin": "LTC",
+    "name": "litecoin",
+    "ticker": "LTC"
+  },
+  "LCC": {
+    "title": "Litecoin Cash",
+    "type": "bitcoin",
+    "decimals": 7,
+    "curve": "secp256k1",
+    "slip44": 192,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "lcc",
+      "pubKeyHash": 28,
+      "scriptHash": 50,
+      "wif": 176,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "scriptHash2": 5,
+      "forkId": 64
+    },
+    "satoshi": 10000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "LTC",
+        "height": 1371111,
+        "timestamp": 1518982404,
+        "ratio": 1
+      }
+    ],
+    "electrum": [
+      "hetzner01.fischl-online.de:s50010"
+    ],
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/lcc/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/lcc/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "LCC",
+    "name": "litecoin cash",
+    "ticker": "LCC"
+  },
+  "DASH": {
+    "title": "Dash",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 5,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 76,
+      "scriptHash": 16,
+      "wif": 204,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://insight.dash.org/insight-api"
+      }
+    ],
+    "electrum": [
+      "electrum.dash.org:s50002",
+      "electrum.masternode.io:s50002",
+      "electrum-drk.club:s50002",
+      "dashcrypto.space:s50002",
+      "drk.p2pay.com:s50002",
+      "electrum.dash.siampm.com:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.dash.org/insight/address/%address%",
+        "tx": "https://insight.dash.org/insight/tx/%hash%"
+      }
+    ],
+    "coin": "DASH",
+    "name": "dash",
+    "ticker": "DASH"
+  },
+  "BTCP": {
+    "title": "Bitcoin Private",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 183,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 4901,
+      "scriptHash": 5039,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 10752
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 511346,
+        "timestamp": 1519826818,
+        "ratio": 1
+      },
+      {
+        "coin": "ZCL",
+        "height": 272991,
+        "timestamp": 1519837402,
+        "ratio": 1
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.btcprivate.org/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.btcprivate.org/address/%address%",
+        "tx": "https://explorer.btcprivate.org/tx/%hash%"
+      }
+    ],
+    "coin": "BTCP",
+    "name": "bitcoin private",
+    "ticker": "BTCP"
+  },
+  "BCX": {
+    "title": "BitcoinX",
+    "type": "bitcoin",
+    "decimals": 4,
+    "curve": "secp256k1",
+    "slip44": 1688,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 75,
+      "scriptHash": 63,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 16,
+      "witness": true
+    },
+    "satoshi": 10000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 498888,
+        "timestamp": 1513074593,
+        "ratio": "1:10000"
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://bcx.info/insight-api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://bcx.info/address/%address%",
+        "tx": "https://bcx.info/tx/%hash%"
+      }
+    ],
+    "coin": "BCX",
+    "name": "bitcoinx",
+    "ticker": "BCX"
+  },
+  "BTX": {
+    "title": "Bitcore",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 160,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "btx",
+      "pubKeyHash": 3,
+      "scriptHash": 125,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 492820,
+        "timestamp": 1509643431,
+        "ratio": "1:0.5"
+      }
+    ],
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://insight.bitcore.cc/api"
+      }
+    ],
+    "electrum": [
+      "ele1.bitcore.cc:s50002",
+      "ele2.bitcore.cc:s50002",
+      "ele3.bitcore.cc:s50002",
+      "ele4.bitcore.cc:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://insight.bitcore.cc/address/%address%",
+        "tx": "https://insight.bitcore.cc/tx/%hash%"
+      }
+    ],
+    "coin": "BTX",
+    "name": "bitcore",
+    "ticker": "BTX"
+  },
+  "BSD": {
+    "title": "BitSend",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 91,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 102,
+      "scriptHash": 5,
+      "wif": 204,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/bsd/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bsd/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "BSD",
+    "name": "bitsend",
+    "ticker": "BSD"
+  },
+  "BTDX": {
+    "title": "Bitcloud",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 128,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 25,
+      "scriptHash": 5,
+      "wif": 153,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/btdx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/btdx/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "BTDX",
+    "name": "bitcloud",
+    "ticker": "BTDX"
+  },
+  "MEC": {
+    "title": "Megacoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 217,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 50,
+      "scriptHash": 34,
+      "wif": 178,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/mec/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/mec/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "MEC",
+    "name": "megacoin",
+    "ticker": "MEC"
+  },
+  "MBC": {
+    "title": "Micro Bitcoin",
+    "type": "bitcoin",
+    "decimals": 4,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 26,
+      "scriptHash": 51,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "forkId": 96
+    },
+    "satoshi": 10000,
+    "parent": "BTC",
+    "tickers": {
+      "cryptocompare": "MBTC"
+    },
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 525000,
+        "timestamp": 1527625482,
+        "ratio": 10000
+      }
+    ],
+    "api": [
+      {
+        "type": "mbc",
+        "url": "https://api.mbc.wiki"
+      }
+    ],
+    "electrum": [
+      "52.78.182.106:t7403",
+      "13.57.248.201:t7403"
+    ],
+    "explorer": [
+      {
+        "address": "https://microbitcoinorg.github.io/explorer/#/address/%address%",
+        "tx": "https://microbitcoinorg.github.io/explorer/#/tx/%hash%"
+      }
+    ],
+    "coin": "MBC",
+    "name": "micro bitcoin",
+    "ticker": "MBC"
+  },
+  "BZX": {
+    "title": "BitcoinZero",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 284,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 75,
+      "scriptHash": 34,
+      "wif": 210,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "cointype": 284
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/bzx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bzx/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "BZX",
+    "name": "bitcoinzero",
+    "ticker": "BZX"
+  },
+  "GXX": {
+    "title": "GravityCoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 285,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 40,
+      "scriptHash": 10,
+      "wif": 210,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/gxx/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/gxx/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "GXX",
+    "name": "gravitycoin",
+    "ticker": "GXX"
+  },
+  "XBA": {
+    "title": "Bitcoin Air",
+    "type": "bitcoin",
+    "decimals": 6,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 75,
+      "scriptHash": 117,
+      "wif": 203,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "messagePrefix": "BitcoinAir",
+      "txdatetime": true
+    },
+    "satoshi": 1000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 551200,
+        "timestamp": 1542987458,
+        "ratio": 1
+      },
+      {
+        "coin": "PPC",
+        "height": 403400,
+        "timestamp": 1544889622,
+        "ratio": 20
+      }
+    ],
+    "api": [
+      {
+        "type": "iquidus",
+        "url": "https://explorer.bitcoinair.net"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoinair.net/address/%address%",
+        "tx": "https://explorer.bitcoinair.net/tx/%hash%"
+      }
+    ],
+    "coin": "XBA",
+    "name": "bitcoin air",
+    "ticker": "XBA"
+  },
+  "GRS": {
+    "title": "Groestlcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 17,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "grs",
+      "pubKeyHash": 36,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "groestl",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://groestlsight.groestlcoin.org/api"
+      }
+    ],
+    "electrum": [
+      "electrum1.groestlcoin.org:s50002",
+      "electrum2.groestlcoin.org:s50002",
+      "electrum3.groestlcoin.org:s50002",
+      "electrum10.groestlcoin.org:s50002",
+      "electrum20.groestlcoin.org:s50002",
+      "electrum30.groestlcoin.org:s50002",
+      "electrum40.groestlcoin.org:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/grs/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/grs/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "GRS",
+    "name": "groestlcoin",
+    "ticker": "GRS"
+  },
+  "VIA": {
+    "title": "Viacoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 14,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 71,
+      "scriptHash": 33,
+      "wif": 199,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.viacoin.org/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.viacoin.org/address/%address%",
+        "tx": "https://explorer.viacoin.org/tx/%hash%"
+      }
+    ],
+    "coin": "VIA",
+    "name": "viacoin",
+    "ticker": "VIA"
+  },
+  "NIX": {
+    "title": "Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 400,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 38,
+      "scriptHash": 53,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://blockchain.nixplatform.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://blockchain.nixplatform.io/address/%address%",
+        "tx": "https://blockchain.nixplatform.io/tx/%hash%"
+      }
+    ],
+    "coin": "NIX",
+    "name": "bitcoin",
+    "ticker": "NIX"
+  },
+  "PIVX": {
+    "title": "Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 119,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 30,
+      "scriptHash": 13,
+      "wif": 212,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://explorer.pivx.link/address/%address%",
+        "tx": "https://explorer.pivx.link/tx/%hash%"
+      }
+    ],
+    "coin": "PIVX",
+    "name": "bitcoin",
+    "ticker": "PIVX"
+  },
+  "FLO": {
+    "title": "Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 216,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 20201579,
+          "private": 20200497
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 35,
+      "scriptHash": 8,
+      "wif": 163,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "pubKeyHash2": 94,
+      "wif2": 176
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://livenet.flocha.in/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://livenet.flocha.in/address/%address%",
+        "tx": "https://livenet.flocha.in/tx/%hash%"
+      }
+    ],
+    "coin": "FLO",
+    "name": "bitcoin",
+    "ticker": "FLO"
+  },
+  "XZC": {
+    "title": "ZCoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 136,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 82,
+      "scriptHash": 7,
+      "wif": 210,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.zcoin.io/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.zcoin.io/address/%address%",
+        "tx": "https://explorer.zcoin.io/tx/%hash%"
+      }
+    ],
+    "coin": "XZC",
+    "name": "zcoin",
+    "ticker": "XZC"
+  },
+  "XMY": {
+    "title": "Myriadcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 90,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 50,
+      "scriptHash": 9,
+      "wif": 178,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "http://insight-myr.cryptap.us/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "http://insight-myr.cryptap.us/address/%address%",
+        "tx": "http://insight-myr.cryptap.us/tx/%hash%"
+      }
+    ],
+    "coin": "XMY",
+    "name": "myriadcoin",
+    "ticker": "XMY"
+  },
+  "FTC": {
+    "title": "Feathercoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 8,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 14,
+      "scriptHash": 5,
+      "wif": 142,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.feathercoin.com/api"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://explorer.feathercoin.com/address/%address%",
+        "tx": "https://explorer.feathercoin.com/tx/%hash%"
+      }
+    ],
+    "coin": "FTC",
+    "name": "feathercoin",
+    "ticker": "FTC"
+  },
+  "ECA": {
+    "title": "Electra",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 249,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 33,
+      "scriptHash": 40,
+      "wif": 161,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "iquidus",
+        "url": "https://tec.electraproject.org"
+      }
+    ],
+    "electrum": [
+      "54.38.53.207:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://eca.mgnm.rocks/address/%address%",
+        "tx": "https://eca.mgnm.rocks/tx/%hash%"
+      }
+    ],
+    "coin": "ECA",
+    "name": "electra",
+    "ticker": "ECA"
+  },
+  "DOGE": {
+    "title": "Dogecoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 3,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 49990397,
+          "private": 49988504
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 30,
+      "scriptHash": 22,
+      "wif": 158,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "https://dogechain.info/address/%address%",
+        "tx": "https://dogechain.info/tx/%hash%"
+      }
+    ],
+    "coin": "DOGE",
+    "name": "dogecoin",
+    "ticker": "DOGE"
+  },
+  "MONA": {
+    "title": "Monacoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 22,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 50,
+      "scriptHash": 5,
+      "wif": 176,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://mona.chainsight.info/api"
+      }
+    ],
+    "electrum": [
+      "electrumx2.monacoin.ninja:s50002",
+      "electrumx2.tamami-foundation.org:s50002",
+      "electrumx1.monacoin.nl:s50002",
+      "electrum-mona.bitbank.cc:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://mona.chainsight.info/address/%address%",
+        "tx": "https://mona.chainsight.info/tx/%hash%"
+      }
+    ],
+    "coin": "MONA",
+    "name": "monacoin",
+    "ticker": "MONA"
+  },
+  "XVG": {
+    "title": "Verge",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 77,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 36513075,
+          "private": 35729707
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 30,
+      "scriptHash": 33,
+      "wif": 158,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "iquidus",
+        "url": "https://verge-blockchain.info"
+      }
+    ],
+    "electrum": [
+      "e1.verge-electrum.com:s50002",
+      "e1.verge-electrum.com:t50001",
+      "e2.verge-electrum.com:s50002",
+      "e2.verge-electrum.com:t50001",
+      "e3.verge-electrum.com:s50002",
+      "e3.verge-electrum.com:t50001",
+      "electrum-verge.xyz:s50002",
+      "electrum-verge.xyz:t50001",
+      "electrum-xvg.stream:s50002",
+      "electrum-xvg.stream:t50001",
+      "electrum-xvg.party:s50002",
+      "electrum-xvg.party:t50001",
+      "xvg.verge-blockchain.info:s50002",
+      "xvg.verge-blockchain.info:t50001",
+      "83.169.38.218:s50002",
+      "83.169.38.218:t50003",
+      "46.163.118.201:s50002",
+      "elec2.verge-blockchain.com:s50002",
+      "91.250.119.239:s50002",
+      "94.130.90.213:s50002",
+      "94.130.90.213:t50001"
+    ],
+    "explorer": [
+      {
+        "address": "https://verge-blockchain.info/address/%address%",
+        "tx": "https://verge-blockchain.info/tx/%hash%"
+      }
+    ],
+    "coin": "XVG",
+    "name": "verge",
+    "ticker": "XVG"
+  },
+  "BTH": {
+    "title": "Bithereum",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 25,
+      "scriptHash": 40,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": [
+      {
+        "type": "insight",
+        "url": "http://explorer.bithereum.network/insight-api"
+      }
+    ],
+    "coin": "BTH",
+    "name": "bithereum",
+    "ticker": "BTH"
+  },
+  "VTC": {
+    "title": "Vertcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 28,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 71,
+      "scriptHash": 5,
+      "wif": 28,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "electrum": [
+      "fr1.vtconline.org:s55002",
+      "vtc.horriblecoders.com:s55002",
+      "vtc.lukechilds.co:s55002",
+      "vtc-cce-1.coinomi.net:t5028"
+    ],
+    "explorer": [
+      {
+        "address": "https://vtc.tokenview.com/en/address/%address%",
+        "tx": "https://vtc.tokenview.com/en/tx/%hash%"
+      }
+    ],
+    "coin": "VTC",
+    "name": "vertcoin",
+    "ticker": "VTC"
+  },
+  "NLG": {
+    "title": "Gulden",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 87,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 38,
+      "scriptHash": 98,
+      "wif": 166,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "coin": "NLG",
+    "name": "gulden",
+    "ticker": "NLG"
+  },
+  "QTUM": {
+    "title": "Qtum",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 2301,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 58,
+      "scriptHash": 50,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "electrum": [
+      "s1.qtum.info:s50002",
+      "s2.qtum.info:s50002",
+      "s3.qtum.info:s50002",
+      "s4.qtum.info:s50002",
+      "s5.qtum.info:s50002",
+      "s7.qtum.info:s50002",
+      "s8.qtum.info:s50002",
+      "s9.qtum.info:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://qtum.info/address/%address%",
+        "tx": "https://qtum.info/tx/%hash%"
+      }
+    ],
+    "coin": "QTUM",
+    "name": "qtum",
+    "ticker": "QTUM"
+  },
+  "NMC": {
+    "title": "Namecoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 7,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 52,
+      "scriptHash": 13,
+      "wif": 180,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "electrum": [
+      "elec.luggs.co:s446",
+      "ulrichard.ch:t50005",
+      "ulrichard.ch:s50006",
+      "luggscoqbymhvnkp.onion:t82",
+      "electrum-nmc.le-space.de:s50002",
+      "nmc.bitcoins.sk:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "https://nmc1.trezor.io/address/%address%",
+        "tx": "https://nmc1.trezor.io/tx/%hash%"
+      }
+    ],
+    "coin": "NMC",
+    "name": "namecoin",
+    "ticker": "NMC"
+  },
+  "BCD": {
+    "title": "Bitcoin Diamond",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 999,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      },
+      "txblockhash": true
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 495866,
+        "timestamp": 1511515212,
+        "ratio": 10
+      }
+    ],
+    "electrum": [
+      "seed1.electrum.btcd.io:s50002"
+    ],
+    "explorer": [
+      {
+        "address": "http://explorer.btcd.io/#/address?loading=true&address=%address%",
+        "tx": "http://explorer.btcd.io/#/TX?loading=true&TX=%hash%"
+      }
+    ],
+    "coin": "BCD",
+    "name": "bitcoin diamond",
+    "ticker": "BCD"
+  },
+  "ADA": {
+    "title": "Cardano",
+    "type": "cardano",
+    "decimals": 6,
+    "slip44": 1815,
+    "explorer": [
+      {
+        "address": "https://cardanoexplorer.com/address/%address%",
+        "tx": "https://cardanoexplorer.com/tx/%hash%"
+      }
+    ],
+    "coin": "ADA",
+    "name": "cardano",
+    "ticker": "ADA",
+    "satoshi": 1000000
+  },
+  "XRP": {
+    "title": "Ripple",
+    "type": "ripple",
+    "decimals": 6,
+    "slip44": 144,
+    "explorer": [
+      {
+        "address": "https://bithomp.com/explorer/%address%",
+        "tx": "https://bithomp.com/explorer/%hash%"
+      }
+    ],
+    "coin": "XRP",
+    "name": "ripple",
+    "ticker": "XRP",
+    "satoshi": 1000000
+  },
+  "NEO": {
+    "title": "NEO",
+    "type": "neo",
+    "decimals": 6,
+    "slip44": 888,
+    "coin": "NEO",
+    "name": "neo",
+    "ticker": "NEO",
+    "satoshi": 1000000
+  },
+  "ONT": {
+    "decimals": 6,
+    "type": "ontology",
+    "slip44": 1024,
+    "coin": "ONT",
+    "title": "ONT",
+    "name": "ont",
+    "ticker": "ONT",
+    "satoshi": 1000000
+  },
+  "XMR": {
+    "title": "Monero",
+    "type": "monero",
+    "decimals": 6,
+    "slip44": 128,
+    "coin": "XMR",
+    "name": "monero",
+    "ticker": "XMR",
+    "satoshi": 1000000
+  },
+  "WAVES": {
+    "title": "Waves",
+    "type": "waves",
+    "decimals": 8,
+    "slip44": 5741564,
+    "explorer": [
+      {
+        "address": "https://wavesexplorer.com/address/%address%",
+        "tx": "https://wavesexplorer.com/tx/%hash%"
+      }
+    ],
+    "coin": "WAVES",
+    "name": "waves",
+    "ticker": "WAVES",
+    "satoshi": 100000000
+  },
+  "LSK": {
+    "title": "Lisk",
+    "type": "lisk",
+    "decimals": 8,
+    "slip44": 134,
+    "explorer": [
+      {
+        "address": "https://explorer.lisk.io/address/%address%",
+        "tx": "https://explorer.lisk.io/tx/%hash%"
+      }
+    ],
+    "coin": "LSK",
+    "name": "lisk",
+    "ticker": "LSK",
+    "satoshi": 100000000
+  },
+  "DIVVY": {
+    "title": "Dispatch Labs",
+    "decimals": 0,
+    "explorer": [
+      {
+        "address": "http://35.233.197.138:1975/v1/accounts/%address%",
+        "tx": "http://35.233.197.138:1975/v1/transactions/%hash%"
+      }
+    ],
+    "coin": "DIVVY",
+    "name": "dispatch labs",
+    "ticker": "DIVVY",
+    "satoshi": 1
+  },
+  "MNT": {
+    "title": "Minter",
+    "decimals": 18,
+    "explorer": [
+      {
+        "address": "https://explorer.minter.network/address/%address%",
+        "tx": "https://explorer.minter.network/transactions/%hash%"
+      }
+    ],
+    "coin": "MNT",
+    "name": "minter",
+    "ticker": "MNT",
+    "satoshi": 1000000000000000000
+  },
+  "MNT_TEST": {
+    "title": "Minter (Testnet)",
+    "decimals": 18,
+    "satoshi": 1000000000000000000,
+    "parent": "MNT",
+    "explorer": [
+      {
+        "address": "https://testnet.explorer.minter.network/address/%address%",
+        "tx": "https://testnet.explorer.minter.network/tx/%hash%"
+      }
+    ],
+    "coin": "MNT_TEST",
+    "name": "minter (testnet)",
+    "ticker": "MNT_TEST"
+  },
+  "ATOM": {
+    "title": "Cosmos",
+    "decimals": 8,
+    "coin": "ATOM",
+    "name": "cosmos",
+    "ticker": "ATOM",
+    "satoshi": 100000000
+  },
+  "UBTC": {
+    "title": "UnitedBitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 498777,
+        "timestamp": 1513016352,
+        "ratio": "1:1"
+      }
+    ],
+    "coin": "UBTC",
+    "name": "unitedbitcoin",
+    "ticker": "UBTC"
+  },
+  "LBTC": {
+    "title": "Lightning Bitcoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BTC",
+        "height": 499999,
+        "timestamp": 1513622087,
+        "ratio": "1:1"
+      }
+    ],
+    "coin": "LBTC",
+    "name": "lightning bitcoin",
+    "ticker": "LBTC"
+  },
+  "BCA": {
+    "title": "Bitcoin ATOM",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "coin": "BCA",
+    "name": "bitcoin atom",
+    "ticker": "BCA"
+  },
+  "BCZ": {
+    "title": "BitcoinCash Zero",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 0,
+      "wif": 210,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "forked": [
+      {
+        "coin": "BZX",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:60"
+      },
+      {
+        "coin": "BCH",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:1"
+      },
+      {
+        "coin": "BSV",
+        "height": 1,
+        "timestamp": 1535555555,
+        "ratio": "1:1"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://chainz.cryptoid.info/bcz/address.dws?%address%.htm",
+        "tx": "https://chainz.cryptoid.info/bcz/tx.dws?%hash%.htm"
+      }
+    ],
+    "coin": "BCZ",
+    "name": "bitcoincash zero",
+    "ticker": "BCZ"
+  },
+  "BIFI": {
+    "title": "Bitcoin FILE",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 201,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://explorer.bitcoinfile.org/insight-api"
+    },
+    "explorer": [
+      {
+        "address": "https://explorer.bitcoinfile.org/address/%address%",
+        "tx": "https://explorer.bitcoinfile.org/tx/%hash%"
+      }
+    ],
+    "coin": "BIFI",
+    "name": "bitcoin file",
+    "ticker": "BIFI"
+  },
+  "XBI": {
+    "title": "Bitcoin Incognito",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 0,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 0,
+      "scriptHash": 5,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "explorer": [
+      {
+        "address": "http://explorer.bitcoinincognito.org/address/%address%",
+        "tx": "http://explorer.bitcoinincognito.org/tx/%hash%"
+      }
+    ],
+    "coin": "XBI",
+    "name": "bitcoin incognito",
+    "ticker": "XBI"
+  },
+  "DCR": {
+    "title": "Decred",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 42,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 50177256,
+          "private": 50178342
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 1855,
+      "scriptHash": 1818,
+      "wif": 8926,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://mainnet.decred.org/api"
+    },
+    "explorer": [
+      {
+        "address": "https://mainnet.decred.org/address/%address%",
+        "tx": "https://mainnet.decred.org/tx/%hash%"
+      }
+    ],
+    "coin": "DCR",
+    "name": "decred",
+    "ticker": "DCR"
+  },
+  "RVN": {
+    "title": "Ravencoin",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 175,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 60,
+      "scriptHash": 122,
+      "wif": 128,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://ravencoin.network/api"
+    },
+    "coin": "RVN",
+    "name": "ravencoin",
+    "ticker": "RVN"
+  },
+  "PART": {
+    "title": "Particl",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 44,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 56,
+      "scriptHash": 60,
+      "wif": 108,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://explorer.particl.io/api"
+    },
+    "coin": "PART",
+    "name": "particl",
+    "ticker": "PART"
+  },
+  "IOP": {
+    "title": "Internet of People",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 66,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 40931679,
+          "private": 2922649334
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 117,
+      "scriptHash": 174,
+      "wif": 49,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://mainnet.iop.cash/api"
+    },
+    "coin": "IOP",
+    "name": "internet of people",
+    "ticker": "IOP"
+  },
+  "ELA": {
+    "title": "Elastos",
+    "type": "bitcoin",
+    "decimals": 8,
+    "curve": "secp256k1",
+    "slip44": 2305,
+    "chainparams": {
+      "magic": {
+        "xpub": {
+          "public": 76067358,
+          "private": 76066276
+        },
+        "ypub": {
+          "public": 77429938,
+          "private": 77428856
+        },
+        "zpub": {
+          "public": 78792518,
+          "private": 78791436
+        },
+        "Ypub": {
+          "public": 43365439,
+          "private": 43364357
+        },
+        "Zpub": {
+          "public": 44728019,
+          "private": 44726937
+        }
+      },
+      "bech32": "bc",
+      "pubKeyHash": 99,
+      "scriptHash": 99,
+      "wif": 99,
+      "hash_functions": {
+        "address": "hash256",
+        "transaction": "hash256"
+      }
+    },
+    "satoshi": 100000000,
+    "parent": "BTC",
+    "api": {
+      "type": "insight",
+      "url": "https://blockchain.elastos.org/api"
+    },
+    "coin": "ELA",
+    "name": "elastos",
+    "ticker": "ELA"
+  }
+}

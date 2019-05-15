@@ -8,10 +8,33 @@ let getCoins = function(list) {
     let record = {};
     let item = JSON.parse(JSON.stringify(list[coin]));
 
+    function fillSectet(item, i, value)
+    {
+      if (Array.isArray(value)) {
+          item[i] = item[i] || [];
+            item[i].splice(0, 0, ...value);
+      } else {
+          item[i] = value;
+      }
+    }
+
+    if (item.hidden) {
+        for (let i in item.hidden) {
+          fillSectet(item, i, item.hidden[i])
+        }
+        delete item.hidden;
+    }
+    if (item.secret) {
+        for (let i in item.secret) {
+          fillSectet(item, i, item.secret[i])
+        }
+        delete item.secret;
+    }
+
     if (item.parent) {
       let parent = result[item.parent];
       for (let key in parent) {
-        if (['genesis', 'blocktime', 'api', 'electrum', 'explorer'].indexOf(key) == -1) {
+        if (['genesis', 'blocktime', 'api', 'electrum', 'explorer', 'coin', 'ticker', 'name'].indexOf(key) == -1) {
             record[key] = JSON.parse(JSON.stringify(parent[key]));
         }
       }
