@@ -25,6 +25,7 @@
     "title": "TRON",
     "decimals": 6,
     "slip44": 195,
+    "curve": "secp256k1",
     "explorer": [
       {
         "address": "https://tronscan.org/#/address/%address%",
@@ -41,6 +42,7 @@
     "type": "tendermint",
     "decimals": 8,
     "slip44": 714,
+    "curve": "secp256k1",
     "explorer": [
       {
         "address": "https://explorer.binance.org/address/%address%",
@@ -57,6 +59,7 @@
     "type": "tendermint",
     "decimals": 8,
     "slip44": 714,
+    "curve": "secp256k1",
     "satoshi": 100000000,
     "parent": "BNB",
     "explorer": [
@@ -74,6 +77,7 @@
     "type": "nem",
     "decimals": 6,
     "slip44": 43,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "http://explorer.nemchina.com/#/s_account?account=%address%",
@@ -90,6 +94,7 @@
     "type": "stellar",
     "decimals": 7,
     "slip44": 148,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "https://steexp.com/account/%address%",
@@ -106,6 +111,7 @@
     "type": "stellar",
     "decimals": 5,
     "slip44": 2017,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "https://www.kin.org/blockchainAccount/?&dataType=public&header=accountID&id=%address%",
@@ -117,10 +123,55 @@
     "ticker": "KIN",
     "satoshi": 100000
   },
+  "ERG": {
+    "title": "Ergo",
+    "decimals": 9,
+    "curve": "secp256k1",
+    "api": [
+      {
+        "url": "https://api.ergoplatform.com"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://ergoplatform.com/en/addresses/%address%",
+        "tx": "https://ergoplatform.com/en/transactions/%hash%"
+      }
+    ],
+    "coin": "ERG",
+    "name": "ergo",
+    "ticker": "ERG",
+    "satoshi": 1000000000
+  },
+  "ERG_TEST": {
+    "title": "Ergo (Testnet)",
+    "decimals": 9,
+    "curve": "secp256k1",
+    "satoshi": 1000000000,
+    "parent": "ERG",
+    "api": [
+      {
+        "url": "https://api-testnet.ergoplatform.com"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://testnet.ergoplatform.com/en/addresses/%address%",
+        "tx": "https://testnet.ergoplatform.com/en/transactions/%hash%"
+      }
+    ],
+    "coin": "ERG_TEST",
+    "name": "ergo (testnet)",
+    "ticker": "ERG_TEST"
+  },
   "ETH": {
     "title": "Ethereum",
     "decimals": 18,
     "slip44": 60,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 1
+    },
     "explorer": [
       {
         "address": "https://etherscan.io/address/%address%",
@@ -136,6 +187,10 @@
     "title": "Ethereum Classic",
     "decimals": 18,
     "slip44": 61,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 61
+    },
     "satoshi": 1000000000000000000,
     "parent": "ETH",
     "forked": [
@@ -165,6 +220,10 @@
     "title": "Ethereum",
     "decimals": 8,
     "slip44": 291,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 0
+    },
     "satoshi": 100000000,
     "parent": "ETH",
     "explorer": [
@@ -181,6 +240,10 @@
     "title": "IOST (Testnet)",
     "decimals": 8,
     "slip44": 291,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 0
+    },
     "satoshi": 100000000,
     "parent": "IOST",
     "explorer": [
@@ -197,6 +260,10 @@
     "title": "EtherZero",
     "decimals": 18,
     "slip44": 60,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 90
+    },
     "satoshi": 1000000000000000000,
     "parent": "ETH",
     "forked": [
@@ -226,6 +293,10 @@
     "title": "Aion",
     "decimals": 18,
     "slip44": 425,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 0
+    },
     "satoshi": 1000000000000000000,
     "parent": "ETH",
     "explorer": [
@@ -242,6 +313,10 @@
     "title": "EtherInc",
     "decimals": 18,
     "slip44": 464,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 101
+    },
     "satoshi": 1000000000000000000,
     "parent": "ETH",
     "forked": [
@@ -271,6 +346,10 @@
     "title": "Callisto Network",
     "decimals": 18,
     "slip44": 820,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 820
+    },
     "satoshi": 1000000000000000000,
     "parent": "ETC",
     "forked": [
@@ -300,11 +379,12 @@
     "title": "Ubiq",
     "decimals": 18,
     "slip44": 141,
-    "satoshi": 1000000000000000000,
-    "parent": "ETH",
+    "curve": "secp256k1",
     "chainparams": {
       "networkId": 8
     },
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
     "api": [
       {
         "type": "web3",
@@ -326,11 +406,12 @@
     "title": "Expanse",
     "decimals": 18,
     "slip44": 40,
-    "satoshi": 1000000000000000000,
-    "parent": "ETH",
+    "curve": "secp256k1",
     "chainparams": {
       "networkId": 2
     },
+    "satoshi": 1000000000000000000,
+    "parent": "ETH",
     "api": [
       {
         "type": "web3",
@@ -1505,6 +1586,8 @@
       }
     ],
     "electrum": [
+      "electrum1.litecoinca.sh:s50010",
+      "electrum2.litecoinca.sh:s50010",
       "hetzner01.fischl-online.de:s50010"
     ],
     "explorer": [

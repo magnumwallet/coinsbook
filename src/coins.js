@@ -21,6 +21,7 @@ let coins = {
     "title": "TRON",
     "decimals": 6,
     "slip44": 195,
+    "curve": "secp256k1",
     "explorer": [
       {
         "address": "https://tronscan.org/#/address/%address%",
@@ -33,6 +34,7 @@ let coins = {
     "type": "tendermint",
     "decimals": 8,
     "slip44": 714,
+    "curve": "secp256k1",
     "explorer": [
       {
         "address": "https://explorer.binance.org/address/%address%",
@@ -55,6 +57,7 @@ let coins = {
     "type": "nem",
     "decimals": 6,
     "slip44": 43,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "http://explorer.nemchina.com/#/s_account?account=%address%",
@@ -67,6 +70,7 @@ let coins = {
     "type": "stellar",
     "decimals": 7,
     "slip44": 148,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "https://steexp.com/account/%address%",
@@ -79,6 +83,7 @@ let coins = {
     "type": "stellar",
     "decimals": 5,
     "slip44": 2017,
+    "curve": "ed25519",
     "explorer": [
       {
         "address": "https://www.kin.org/blockchainAccount/?&dataType=public&header=accountID&id=%address%",
@@ -86,10 +91,45 @@ let coins = {
       }
     ]
   },
+  "ERG": {
+    "title": "Ergo",
+    "decimals": 9,
+    "curve": "secp256k1",
+    "api": [
+      {
+        "url": "https://api.ergoplatform.com"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://ergoplatform.com/en/addresses/%address%",
+        "tx": "https://ergoplatform.com/en/transactions/%hash%"
+      }
+    ]
+  },
+  "ERG_TEST": {
+    "title": "Ergo (Testnet)",
+    "parent": "ERG",
+    "api": [
+      {
+        "url": "https://api-testnet.ergoplatform.com"
+      }
+    ],
+    "explorer": [
+      {
+        "address": "https://testnet.ergoplatform.com/en/addresses/%address%",
+        "tx": "https://testnet.ergoplatform.com/en/transactions/%hash%"
+      }
+    ]
+  },
   "ETH": {
     "title": "Ethereum",
     "decimals": 18,
     "slip44": 60,
+    "curve": "secp256k1",
+    "chainparams": {
+      "networkId": 1
+    },
     "explorer": [
       {
         "address": "https://etherscan.io/address/%address%",
@@ -101,6 +141,9 @@ let coins = {
     "title": "Ethereum Classic",
     "parent": "ETH",
     "slip44": 61,
+    "chainparams": {
+      "networkId": 61
+    },
     "forked": [
       {
         "coin": "ETH",
@@ -125,6 +168,9 @@ let coins = {
     "parent": "ETH",
     "decimals": 8,
     "slip44": 291,
+    "chainparams": {
+      "networkId": 0
+    },
     "explorer": [
       {
         "address": "https://explorer.iost.io/account/%address%",
@@ -145,6 +191,9 @@ let coins = {
   "ETZ": {
     "title": "EtherZero",
     "parent": "ETH",
+    "chainparams": {
+      "networkId": 90
+    },
     "forked": [
       {
         "coin": "ETH",
@@ -169,6 +218,9 @@ let coins = {
     "title": "Aion",
     "parent": "ETH",
     "slip44": 425,
+    "chainparams": {
+      "networkId": 0
+    },
     "explorer": [
       {
         "address": "https://mainnet.aion.network/#/account/%address%",
@@ -180,6 +232,9 @@ let coins = {
     "title": "EtherInc",
     "parent": "ETH",
     "slip44": 464,
+    "chainparams": {
+      "networkId": 101
+    },
     "forked": [
       {
         "coin": "ETH",
@@ -204,6 +259,9 @@ let coins = {
     "title": "Callisto Network",
     "parent": "ETC",
     "slip44": 820,
+    "chainparams": {
+      "networkId": 820
+    },
     "forked": [
       {
         "coin": "ETC",
@@ -791,6 +849,8 @@ let coins = {
       "forkId": 64
     },
     "electrum": [
+      "electrum1.litecoinca.sh:s50010",
+      "electrum2.litecoinca.sh:s50010",
       "hetzner01.fischl-online.de:s50010"
     ],
     "explorer": [
