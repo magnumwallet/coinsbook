@@ -7,6 +7,7 @@ let coins = {
     "slip44": 1729,
     "api": [
       {
+        "type": "tezos",
         "url": "https://mainnet.tezrpc.me"
       }
     ],
@@ -27,6 +28,12 @@ let coins = {
         "address": "https://tronscan.org/#/address/%address%",
         "tx": "https://tronscan.org/#/transaction/%hash%"
       }
+    ],
+    "api": [
+      {
+        "type": "tron",
+        "url": "https://api.trongrid.io"
+      }
     ]
   },
   "BNB": {
@@ -40,6 +47,12 @@ let coins = {
         "address": "https://explorer.binance.org/address/%address%",
         "tx": "https://explorer.binance.org/tx/%hash%"
       }
+    ],
+    "api": [
+      {
+        "type": "binance",
+        "url": "https://dex.binance.org"
+      }
     ]
   },
   "BNB_TEST": {
@@ -49,6 +62,12 @@ let coins = {
       {
         "address": "https://testnet-explorer.binance.org/address/%address%",
         "tx": "https://testnet-explorer.binance.org/tx/%hash%"
+      }
+    ],
+    "api": [
+      {
+        "type": "binance",
+        "url": "https://testnet-dex.binance.org"
       }
     ]
   },
@@ -97,6 +116,7 @@ let coins = {
     "curve": "secp256k1",
     "api": [
       {
+        "type": "ergo",
         "url": "https://api.ergoplatform.com"
       }
     ],
@@ -112,6 +132,7 @@ let coins = {
     "parent": "ERG",
     "api": [
       {
+        "type": "ergo",
         "url": "https://api-testnet.ergoplatform.com"
       }
     ],
@@ -154,6 +175,7 @@ let coins = {
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://ethereumclassic.network"
       }
     ],
@@ -204,6 +226,7 @@ let coins = {
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://etzrpc.org"
       }
     ],
@@ -245,6 +268,7 @@ let coins = {
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://api.einc.io/jsonrpc/mainnet/"
       }
     ],
@@ -272,6 +296,7 @@ let coins = {
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://clo-geth.0xinfra.com/"
       }
     ],
@@ -365,7 +390,7 @@ let coins = {
     "api": [
       {
         "type": "insight",
-        "url": "https://explorer.bitcoininterest.io/api"
+        "url": "https://insight.bitpay.com/api"
       },
       {
         "type": "blockbook",
@@ -1762,10 +1787,12 @@ let coins = {
       "scriptHash": 5,
       "wif": 128
     },
-    "api": {
-      "type": "insight",
-      "url": "https://explorer.bitcoinfile.org/insight-api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.bitcoinfile.org/insight-api"
+      }
+    ],
     "explorer": [
       {
         "address": "https://explorer.bitcoinfile.org/address/%address%",
@@ -1798,10 +1825,12 @@ let coins = {
       "scriptHash": 1818,
       "wif": 8926
     },
-    "api": {
-      "type": "insight",
-      "url": "https://mainnet.decred.org/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://mainnet.decred.org/api"
+      }
+    ],
     "explorer": [
       {
         "address": "https://mainnet.decred.org/address/%address%",
@@ -1818,10 +1847,12 @@ let coins = {
       "scriptHash": 122,
       "wif": 128
     },
-    "api": {
-      "type": "insight",
-      "url": "https://ravencoin.network/api"
-    }
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://ravencoin.network/api"
+      }
+    ]
   },
   "PART": {
     "title": "Particl",
@@ -1832,10 +1863,12 @@ let coins = {
       "scriptHash": 60,
       "wif": 108
     },
-    "api": {
-      "type": "insight",
-      "url": "https://explorer.particl.io/api"
-    }
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.particl.io/api"
+      }
+    ]
   },
   "IOP": {
     "title": "Internet of People",
@@ -1852,10 +1885,12 @@ let coins = {
       "scriptHash": 174,
       "wif": 49
     },
-    "api": {
-      "type": "insight",
-      "url": "https://mainnet.iop.cash/api"
-    }
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://mainnet.iop.cash/api"
+      }
+    ]
   },
   "ELA": {
     "title": "Elastos",
@@ -1866,10 +1901,12 @@ let coins = {
       "scriptHash": 99,
       "wif": 99
     },
-    "api": {
-      "type": "insight",
-      "url": "https://blockchain.elastos.org/api"
-    }
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://blockchain.elastos.org/api"
+      }
+    ]
   }
 };
 

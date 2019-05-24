@@ -56,7 +56,7 @@ let getCoins = function(list) {
     record.title = record.title || record.coin;
     record.name = record.name || record.title.toLowerCase().replace(/[\r\n\t]+/g, ' ').replace(/\s\s+/g, ' ').trim();
     record.ticker = record.ticker || record.coin;
-    record.satoshi = Math.pow(10, record.decimals);
+    record.satoshi = Math.pow(10, record.decimals).toString();
 
     //let messagePrefix = record.messagePrefix || record.title;
     //record.signed_message_header = record.signed_message_header || `${messagePrefix} Signed Message:\n`;

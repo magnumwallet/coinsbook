@@ -1,4 +1,5 @@
 /.idea
 /src/secret.js
+/src/build.js
 /node_modules
 /lib

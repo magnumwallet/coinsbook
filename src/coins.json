@@ -7,6 +7,7 @@
     "slip44": 1729,
     "api": [
       {
+        "type": "tezos",
         "url": "https://mainnet.tezrpc.me"
       }
     ],
@@ -19,7 +20,7 @@
     "coin": "XTZ",
     "name": "tezos",
     "ticker": "XTZ",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "TRX": {
     "title": "TRON",
@@ -32,10 +33,16 @@
         "tx": "https://tronscan.org/#/transaction/%hash%"
       }
     ],
+    "api": [
+      {
+        "type": "tron",
+        "url": "https://api.trongrid.io"
+      }
+    ],
     "coin": "TRX",
     "name": "tron",
     "ticker": "TRX",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "BNB": {
     "title": "Binance Chain",
@@ -49,10 +56,16 @@
         "tx": "https://explorer.binance.org/tx/%hash%"
       }
     ],
+    "api": [
+      {
+        "type": "binance",
+        "url": "https://dex.binance.org"
+      }
+    ],
     "coin": "BNB",
     "name": "binance chain",
     "ticker": "BNB",
-    "satoshi": 100000000
+    "satoshi": "100000000"
   },
   "BNB_TEST": {
     "title": "Binance Chain (Testnet)",
@@ -60,12 +73,18 @@
     "decimals": 8,
     "slip44": 714,
     "curve": "secp256k1",
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BNB",
     "explorer": [
       {
         "address": "https://testnet-explorer.binance.org/address/%address%",
         "tx": "https://testnet-explorer.binance.org/tx/%hash%"
+      }
+    ],
+    "api": [
+      {
+        "type": "binance",
+        "url": "https://testnet-dex.binance.org"
       }
     ],
     "coin": "BNB_TEST",
@@ -87,7 +106,7 @@
     "coin": "XEM",
     "name": "nem",
     "ticker": "XEM",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "XLM": {
     "title": "Stellar",
@@ -104,7 +123,7 @@
     "coin": "XLM",
     "name": "stellar",
     "ticker": "XLM",
-    "satoshi": 10000000
+    "satoshi": "10000000"
   },
   "KIN": {
     "title": "Kin",
@@ -121,7 +140,7 @@
     "coin": "KIN",
     "name": "kin",
     "ticker": "KIN",
-    "satoshi": 100000
+    "satoshi": "100000"
   },
   "ERG": {
     "title": "Ergo",
@@ -129,6 +148,7 @@
     "curve": "secp256k1",
     "api": [
       {
+        "type": "ergo",
         "url": "https://api.ergoplatform.com"
       }
     ],
@@ -141,16 +161,17 @@
     "coin": "ERG",
     "name": "ergo",
     "ticker": "ERG",
-    "satoshi": 1000000000
+    "satoshi": "1000000000"
   },
   "ERG_TEST": {
     "title": "Ergo (Testnet)",
     "decimals": 9,
     "curve": "secp256k1",
-    "satoshi": 1000000000,
+    "satoshi": "1000000000",
     "parent": "ERG",
     "api": [
       {
+        "type": "ergo",
         "url": "https://api-testnet.ergoplatform.com"
       }
     ],
@@ -181,7 +202,7 @@
     "coin": "ETH",
     "name": "ethereum",
     "ticker": "ETH",
-    "satoshi": 1000000000000000000
+    "satoshi": "1000000000000000000"
   },
   "ETC": {
     "title": "Ethereum Classic",
@@ -191,7 +212,7 @@
     "chainparams": {
       "networkId": 61
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "forked": [
       {
@@ -203,6 +224,7 @@
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://ethereumclassic.network"
       }
     ],
@@ -224,7 +246,7 @@
     "chainparams": {
       "networkId": 0
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "ETH",
     "explorer": [
       {
@@ -244,7 +266,7 @@
     "chainparams": {
       "networkId": 0
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "IOST",
     "explorer": [
       {
@@ -264,7 +286,7 @@
     "chainparams": {
       "networkId": 90
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "forked": [
       {
@@ -276,6 +298,7 @@
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://etzrpc.org"
       }
     ],
@@ -297,7 +320,7 @@
     "chainparams": {
       "networkId": 0
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "explorer": [
       {
@@ -317,7 +340,7 @@
     "chainparams": {
       "networkId": 101
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "forked": [
       {
@@ -329,6 +352,7 @@
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://api.einc.io/jsonrpc/mainnet/"
       }
     ],
@@ -350,7 +374,7 @@
     "chainparams": {
       "networkId": 820
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETC",
     "forked": [
       {
@@ -362,6 +386,7 @@
     ],
     "api": [
       {
+        "type": "web3",
         "url": "https://clo-geth.0xinfra.com/"
       }
     ],
@@ -383,7 +408,7 @@
     "chainparams": {
       "networkId": 8
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "api": [
       {
@@ -410,7 +435,7 @@
     "chainparams": {
       "networkId": 2
     },
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "ETH",
     "api": [
       {
@@ -470,7 +495,7 @@
     "api": [
       {
         "type": "insight",
-        "url": "https://explorer.bitcoininterest.io/api"
+        "url": "https://insight.bitpay.com/api"
       },
       {
         "type": "blockbook",
@@ -506,7 +531,7 @@
     "coin": "BTC",
     "name": "bitcoin",
     "ticker": "BTC",
-    "satoshi": 100000000
+    "satoshi": "100000000"
   },
   "BCI": {
     "title": "Bitcoin Interest",
@@ -548,7 +573,7 @@
       "forkId": 20224,
       "witness": true
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -607,7 +632,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -663,7 +688,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -720,7 +745,7 @@
       },
       "txdatetime": true
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -778,7 +803,7 @@
       "addr_prefix": "bitcoincash",
       "forkId": 0
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -852,7 +877,7 @@
       "addr_prefix": "bitcoincash",
       "forkId": 0
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BCH",
     "forked": [
       {
@@ -927,7 +952,7 @@
       },
       "forkId": 79
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -998,7 +1023,7 @@
       },
       "forkId": 10752
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -1070,7 +1095,7 @@
       },
       "txdatetime": true
     },
-    "satoshi": 1000000,
+    "satoshi": "1000000",
     "parent": "BTC",
     "api": [
       {
@@ -1136,7 +1161,7 @@
         "4": 1991772603
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "electrum": [
       "electrum.novit.ro:t50001",
@@ -1196,7 +1221,7 @@
         "4": 1991772603
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "ZEC",
     "api": [
       {
@@ -1262,7 +1287,7 @@
         "4": 1991772603
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "ZEC",
     "api": [
       {
@@ -1324,7 +1349,7 @@
         "4": 1991772603
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "ZEC",
     "api": [
       {
@@ -1399,7 +1424,7 @@
         "4": 1991772603
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "KMD",
     "explorer": [
       {
@@ -1449,7 +1474,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -1517,7 +1542,7 @@
         }
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "electrum": [
       "ltc.rentonisk.com:s50002",
@@ -1575,7 +1600,7 @@
       "scriptHash2": 5,
       "forkId": 64
     },
-    "satoshi": 10000000,
+    "satoshi": "10000000",
     "parent": "BTC",
     "forked": [
       {
@@ -1638,7 +1663,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -1703,7 +1728,7 @@
       },
       "forkId": 10752
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -1775,7 +1800,7 @@
       "forkId": 16,
       "witness": true
     },
-    "satoshi": 10000,
+    "satoshi": "10000",
     "parent": "BTC",
     "forked": [
       {
@@ -1839,7 +1864,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -1909,7 +1934,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -1959,7 +1984,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2009,7 +2034,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2060,7 +2085,7 @@
       },
       "forkId": 96
     },
-    "satoshi": 10000,
+    "satoshi": "10000",
     "parent": "BTC",
     "tickers": {
       "cryptocompare": "MBTC"
@@ -2132,7 +2157,7 @@
       },
       "cointype": 284
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2182,7 +2207,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2234,7 +2259,7 @@
       "messagePrefix": "BitcoinAir",
       "txdatetime": true
     },
-    "satoshi": 1000000,
+    "satoshi": "1000000",
     "parent": "BTC",
     "forked": [
       {
@@ -2304,7 +2329,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2369,7 +2394,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2425,7 +2450,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2481,7 +2506,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2517,7 +2542,7 @@
       "pubKeyHash2": 94,
       "wif2": 176
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2573,7 +2598,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2629,7 +2654,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2685,7 +2710,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2741,7 +2766,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2784,7 +2809,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -2834,7 +2859,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2880,7 +2905,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -2959,7 +2984,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "api": [
       {
@@ -3009,7 +3034,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "electrum": [
       "fr1.vtconline.org:s55002",
@@ -3065,7 +3090,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "coin": "NLG",
     "name": "gulden",
@@ -3109,7 +3134,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "electrum": [
       "s1.qtum.info:s50002",
@@ -3169,7 +3194,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "electrum": [
       "elec.luggs.co:s446",
@@ -3228,7 +3253,7 @@
       },
       "txblockhash": true
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -3265,7 +3290,7 @@
     "coin": "ADA",
     "name": "cardano",
     "ticker": "ADA",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "XRP": {
     "title": "Ripple",
@@ -3281,7 +3306,7 @@
     "coin": "XRP",
     "name": "ripple",
     "ticker": "XRP",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "NEO": {
     "title": "NEO",
@@ -3291,7 +3316,7 @@
     "coin": "NEO",
     "name": "neo",
     "ticker": "NEO",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "ONT": {
     "decimals": 6,
@@ -3301,7 +3326,7 @@
     "title": "ONT",
     "name": "ont",
     "ticker": "ONT",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "XMR": {
     "title": "Monero",
@@ -3311,7 +3336,7 @@
     "coin": "XMR",
     "name": "monero",
     "ticker": "XMR",
-    "satoshi": 1000000
+    "satoshi": "1000000"
   },
   "WAVES": {
     "title": "Waves",
@@ -3327,7 +3352,7 @@
     "coin": "WAVES",
     "name": "waves",
     "ticker": "WAVES",
-    "satoshi": 100000000
+    "satoshi": "100000000"
   },
   "LSK": {
     "title": "Lisk",
@@ -3343,7 +3368,7 @@
     "coin": "LSK",
     "name": "lisk",
     "ticker": "LSK",
-    "satoshi": 100000000
+    "satoshi": "100000000"
   },
   "DIVVY": {
     "title": "Dispatch Labs",
@@ -3357,7 +3382,7 @@
     "coin": "DIVVY",
     "name": "dispatch labs",
     "ticker": "DIVVY",
-    "satoshi": 1
+    "satoshi": "1"
   },
   "MNT": {
     "title": "Minter",
@@ -3371,12 +3396,12 @@
     "coin": "MNT",
     "name": "minter",
     "ticker": "MNT",
-    "satoshi": 1000000000000000000
+    "satoshi": "1000000000000000000"
   },
   "MNT_TEST": {
     "title": "Minter (Testnet)",
     "decimals": 18,
-    "satoshi": 1000000000000000000,
+    "satoshi": "1000000000000000000",
     "parent": "MNT",
     "explorer": [
       {
@@ -3394,7 +3419,7 @@
     "coin": "ATOM",
     "name": "cosmos",
     "ticker": "ATOM",
-    "satoshi": 100000000
+    "satoshi": "100000000"
   },
   "UBTC": {
     "title": "UnitedBitcoin",
@@ -3434,7 +3459,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -3486,7 +3511,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -3538,7 +3563,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "coin": "BCA",
     "name": "bitcoin atom",
@@ -3582,7 +3607,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "forked": [
       {
@@ -3652,12 +3677,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://explorer.bitcoinfile.org/insight-api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.bitcoinfile.org/insight-api"
+      }
+    ],
     "explorer": [
       {
         "address": "https://explorer.bitcoinfile.org/address/%address%",
@@ -3706,7 +3733,7 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
     "explorer": [
       {
@@ -3740,12 +3767,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://mainnet.decred.org/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://mainnet.decred.org/api"
+      }
+    ],
     "explorer": [
       {
         "address": "https://mainnet.decred.org/address/%address%",
@@ -3794,12 +3823,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://ravencoin.network/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://ravencoin.network/api"
+      }
+    ],
     "coin": "RVN",
     "name": "ravencoin",
     "ticker": "RVN"
@@ -3842,12 +3873,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://explorer.particl.io/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://explorer.particl.io/api"
+      }
+    ],
     "coin": "PART",
     "name": "particl",
     "ticker": "PART"
@@ -3874,12 +3907,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://mainnet.iop.cash/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://mainnet.iop.cash/api"
+      }
+    ],
     "coin": "IOP",
     "name": "internet of people",
     "ticker": "IOP"
@@ -3922,12 +3957,14 @@
         "transaction": "hash256"
       }
     },
-    "satoshi": 100000000,
+    "satoshi": "100000000",
     "parent": "BTC",
-    "api": {
-      "type": "insight",
-      "url": "https://blockchain.elastos.org/api"
-    },
+    "api": [
+      {
+        "type": "insight",
+        "url": "https://blockchain.elastos.org/api"
+      }
+    ],
     "coin": "ELA",
     "name": "elastos",
     "ticker": "ELA"
